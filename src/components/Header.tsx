@@ -5,7 +5,7 @@ export function Header() {
         <Flex>
             <Flex>
                 <Heading>Recollect</Heading>
-                <Text>Not </Text>
+                <Text>AGORA ESTÁ ONLINE </Text>
             </Flex>
         </Flex> 
     )
