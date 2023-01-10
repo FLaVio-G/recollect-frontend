@@ -12,12 +12,7 @@ import {
 
 export function PrincipalCard() {
   return (
-    <Box backdropFilter='auto' backdropBlur='40px'>
-      <Card
-        direction={{ base: "column", sm: "row" }}
-        overflow="hidden"
-        variant="outline"
-      >
+    <Box backdropFilter="auto" backdropBlur="40px">
         <Stack>
           <CardBody>
             <Heading size="md" fontSize="5xl" color="black">
@@ -43,19 +38,20 @@ export function PrincipalCard() {
           </CardBody>
         </Stack>
 
-        <Image
-          objectFit="cover"
-          maxW={{ base: "100%", sm: "200px" }}
-          src="https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
-          alt="Caffe Latte"
-        />
+        <Stack>
+          <Image
+            objectFit="cover"
+            maxW={{ base: "100%", sm: "500px" }}
+            src="https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+            alt="Caffe Latte"
+          />
 
-        <CardFooter>
-          <Button variant="solid" colorScheme="blue">
-            Entre em contato
-          </Button>
-        </CardFooter>
-      </Card>
+          <CardFooter>
+            <Button variant="solid" colorScheme="blue">
+              Entre em contato
+            </Button>
+          </CardFooter>
+        </Stack>
     </Box>
   );
 }
