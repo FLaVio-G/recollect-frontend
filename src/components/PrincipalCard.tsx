@@ -1,5 +1,4 @@
 import {
-  Card,
   Text,
   CardFooter,
   Stack,
@@ -8,10 +7,12 @@ import {
   Button,
   CardBody,
   Box,
+  Card,
 } from "@chakra-ui/react";
 
 export function PrincipalCard() {
   return (
+    <Card>
     <Box backdropFilter="auto" backdropBlur="40px">
         <Stack>
           <CardBody>
@@ -53,5 +54,6 @@ export function PrincipalCard() {
           </CardFooter>
         </Stack>
     </Box>
+    </Card>
   );
 }
