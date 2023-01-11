@@ -6,15 +6,18 @@ import {
   Image,
   Button,
   CardBody,
-  Box,
   Card,
+  Flex
 } from "@chakra-ui/react";
+
+import caixa from "../assets/caixas.png";
 
 export function PrincipalCard() {
   return (
     <Card>
-    <Box backdropFilter="auto" backdropBlur="40px">
-        <Stack>
+      <CardBody backdropFilter='auto' backdropBlur='10px' >
+        <Flex>
+        <Stack w='1000px'>
           <CardBody>
             <Heading size="md" fontSize="5xl" color="black">
               Olá nós somos a<br></br>Recollect
@@ -40,12 +43,7 @@ export function PrincipalCard() {
         </Stack>
 
         <Stack>
-          <Image
-            objectFit="cover"
-            maxW={{ base: "100%", sm: "500px" }}
-            src="https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
-            alt="Caffe Latte"
-          />
+          <Image src={caixa} />
 
           <CardFooter>
             <Button variant="solid" colorScheme="blue">
@@ -53,7 +51,8 @@ export function PrincipalCard() {
             </Button>
           </CardFooter>
         </Stack>
-    </Box>
+        </Flex>
+      </CardBody>
     </Card>
   );
 }
