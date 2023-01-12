@@ -9,26 +9,23 @@ export function Header() {
       justifyContent="center"
       gap="3"
     >
-      <ButtonGroup gap="10" mt="10">
-        <Button color="green" fontSize="28">
+      <ButtonGroup gap="10" mt="10" mb='10' colorScheme='teal' variant='ghost'>
+        <Button color="#1AA703" fontSize='1.5rem'>
           Recollect
         </Button>
-        <Button color="green" fontSize="28">
+        <Button color="#1AA703" fontSize='1.5rem'>
           Quem somos
         </Button>
-        <Button color="green" fontSize="28">
+        <Button color="#1AA703" fontSize='1.5rem'>
           Reciclagem
         </Button>
-        <Button color="green" fontSize="28">
+        <Button color="#1AA703" fontSize='1.5rem'>
           Parceiros
         </Button>
-        <Button color="green" fontSize="28">
+        <Button color="#1AA703" fontSize='1.5rem'>
           Quero Reciclar
         </Button>
-        <Button color="green" fontSize="28">
-          Quero Reciclar
-        </Button>
-        <Button color="green" fontSize="28">
+        <Button color="#1AA703" fontSize='1.5rem'>
           Login
         </Button>
       </ButtonGroup>
