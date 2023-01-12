@@ -12,7 +12,7 @@ import { PapelCard } from "./components/Papel/PapelCard"
 import { ResiduosComunsCard } from "./components/Residuos/ResiduosComunsCard"
 import { ResiduosEspeciaisCard } from "./components/Residuos/ResíduosEspeciais"
 import { ReciclagemCard } from "./components/Reciclagem/ReciclagemCard"
-
+import { HomeCard } from "./components/Home/HomeCard"
 
 
 
@@ -25,6 +25,7 @@ root.render(
   <React.StrictMode>
     <ColorModeScript />
     <ChakraProvider theme={theme}>
+    
       <Header/>
       <PrincipalCard/> <br />
       <ReciclagemCard/><br />
@@ -34,6 +35,7 @@ root.render(
       <PapelCard /> <br />
       <ResiduosComunsCard/> <br />
       <ResiduosEspeciaisCard/>
+      <HomeCard/>
     <App />
     </ChakraProvider>
   </React.StrictMode>

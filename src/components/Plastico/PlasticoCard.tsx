@@ -9,7 +9,7 @@ import {
     Center
   } from "@chakra-ui/react";
   
-  import plastico from "../assets/imgs/plastico.png";
+  import plastico from "../../assets/imgs/plastico.png";
   
   export function PlasticoCard() {
     return (
@@ -26,7 +26,7 @@ import {
               <Text py="2" fontSize="1rem" color='white'>
                 # ACRÍLICOS <br />
                 # CÁPSULAS DE CAFÉ<br />
-                # COPOS DE PLÁSTICO<br />
+                # COPOS DE PLÁSTICO <br />
                 # EMBALAGENS DE FRUTAS E LEGUMES<br />
                 # EMBALAGENS DE MARMITEX (ISOPOR) <br />
                 # EMBALAGENS DE PRODUTOS DE HIGIENE<br />
