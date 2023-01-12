@@ -13,7 +13,7 @@ import { ResiduosComunsCard } from "./components/Residuos/ResiduosComunsCard"
 import { ResiduosEspeciaisCard } from "./components/Residuos/ResíduosEspeciais"
 import { ReciclagemCard } from "./components/Reciclagem/ReciclagemCard"
 import { HomeCard } from "./components/Home/HomeCard"
-
+import { LoginCard } from "./components/Login/LoginCard"
 
 
 const container = document.getElementById("root")
@@ -36,6 +36,7 @@ root.render(
       <ResiduosComunsCard/> <br />
       <ResiduosEspeciaisCard/>
       <HomeCard/>
+      <LoginCard/>
     <App />
     </ChakraProvider>
   </React.StrictMode>

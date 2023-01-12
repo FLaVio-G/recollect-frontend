@@ -1,0 +1,15 @@
+.card{
+    display: block;
+    text-align: center;
+}
+
+.stack{
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.link{
+    margin-bottom: 50px;
+}
+
+
