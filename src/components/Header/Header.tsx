@@ -1,6 +1,6 @@
 import { Button, ButtonGroup, Flex } from "@chakra-ui/react";
 import {} from "react-router-dom";
-
+import './components/Header/style.css'
 export function Header() {
   return (
     <Flex
