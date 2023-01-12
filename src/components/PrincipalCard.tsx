@@ -11,7 +11,7 @@ import {
   Center
 } from "@chakra-ui/react";
 
-import caixa from "../assets/caixas.png";
+import caixa from "../assets/imgs/caixas.png";
 
 export function PrincipalCard() {
   return (

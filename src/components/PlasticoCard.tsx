@@ -9,7 +9,7 @@ import {
     Center
   } from "@chakra-ui/react";
   
-  import plastico from "../assets/plastico.png";
+  import plastico from "../assets/imgs/plastico.png";
   
   export function PlasticoCard() {
     return (

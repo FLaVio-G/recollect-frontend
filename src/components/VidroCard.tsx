@@ -9,7 +9,7 @@ import {
     Center
   } from "@chakra-ui/react";
   
-  import vidro from "../assets/vidro.png";
+  import vidro from "../assets/imgs/vidro.png";
   
   export function VidroCard() {
     return (

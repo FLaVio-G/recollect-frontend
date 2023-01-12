@@ -9,7 +9,7 @@ import {
     Center
   } from "@chakra-ui/react";
   
-  import metal from "../assets/metais.png";
+  import metal from "../assets/imgs/metais.png";
   
   export function MetalCard() {
     return (
