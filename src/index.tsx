@@ -16,7 +16,7 @@ import { HomeCard } from "./components/Home/HomeCard"
 import { LoginCard } from "./components/Login/LoginCard"
 import { CadastroCard } from "./components/Cadastro/CadastroCard"
 import { DashboardCard } from "./components/Dashboard/DashboardCard"
-
+import { RecuperarSenhaCard } from "./components/RecuperarSenha/RecuperarSenhaCard"
 
 
 const container = document.getElementById("root")
@@ -42,6 +42,7 @@ root.render(
       <LoginCard/>
       <CadastroCard/>
       <DashboardCard/>
+      <RecuperarSenhaCard/>
     <App />
     </ChakraProvider>
   </React.StrictMode>
