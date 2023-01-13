@@ -1,0 +1,17 @@
+.stack_a{
+    margin-left: 5%;
+   margin-bottom: 10%;
+    margin-right: 10%;
+    
+}
+
+.stack_b{
+    margin-right: 5%;
+}
+
+.stack_b .btn{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    align-items: flex-end;
+}
+

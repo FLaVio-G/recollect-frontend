@@ -15,6 +15,9 @@ import { ReciclagemCard } from "./components/Reciclagem/ReciclagemCard"
 import { HomeCard } from "./components/Home/HomeCard"
 import { LoginCard } from "./components/Login/LoginCard"
 import { CadastroCard } from "./components/Cadastro/CadastroCard"
+import { DashboardCard } from "./components/Dashboard/DashboardCard"
+
+
 
 const container = document.getElementById("root")
 if (!container) throw new Error('Failed to find the root element');
@@ -38,6 +41,7 @@ root.render(
       <HomeCard/>
       <LoginCard/>
       <CadastroCard/>
+      <DashboardCard/>
     <App />
     </ChakraProvider>
   </React.StrictMode>
