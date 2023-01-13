@@ -14,7 +14,7 @@ import { ResiduosEspeciaisCard } from "./components/Residuos/ResíduosEspeciais"
 import { ReciclagemCard } from "./components/Reciclagem/ReciclagemCard"
 import { HomeCard } from "./components/Home/HomeCard"
 import { LoginCard } from "./components/Login/LoginCard"
-
+import { CadastroCard } from "./components/Cadastro/CadastroCard"
 
 const container = document.getElementById("root")
 if (!container) throw new Error('Failed to find the root element');
@@ -37,6 +37,7 @@ root.render(
       <ResiduosEspeciaisCard/>
       <HomeCard/>
       <LoginCard/>
+      <CadastroCard/>
     <App />
     </ChakraProvider>
   </React.StrictMode>

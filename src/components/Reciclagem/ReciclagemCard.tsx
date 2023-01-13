@@ -33,12 +33,12 @@ import {
               (esses são chamados de resíduos comuns). Para começar o processo de reciclagem, você vai precisar separar um do outro. <br /> <br />
               Veja abaixo uma lista de cada um deles:<br /> <br /> 
                     <Center>
-                    <ButtonGroup variant='outline' spacing='6'>
-                        <Button colorScheme='blue' bg='white'>Papel</Button>
-                        <Button colorScheme='blue' bg='white'>Plástico</Button>
-                        <Button colorScheme='blue' bg='white'>Vidro</Button>
-                        <Button colorScheme='blue' bg='white'>Metal</Button>
-                        <Button colorScheme='blue' bg='white'>Res. Não Recicláveis</Button>
+                    <ButtonGroup spacing='6'>
+                        <Button colorScheme='green' bg='white'>Papel</Button>
+                        <Button colorScheme='green' bg='white'>Plástico</Button>
+                        <Button colorScheme='green' bg='white'>Vidro</Button>
+                        <Button colorScheme='green' bg='white'>Metal</Button>
+                        <Button colorScheme='green' bg='white'>Res. Não Recicláveis</Button>
                     </ButtonGroup> 
                     </Center><br />
                     
@@ -58,9 +58,9 @@ import {
               Recomendamos também que, se possível, compacte os resíduos para eles ocuparem menos espaço.<br /> <br />
               Agora que você já tem seus materiais limpos e separados, pode entrar em contato com uma das nossas empresas parceiras.<br /> <br /> 
                     <Center>
-                    <ButtonGroup variant='outline' spacing='6'>
-                        <Button colorScheme='blue' bg='white'>Parceiros</Button>
-                        <Button colorScheme='blue' bg='white'>Quero Reciclar</Button>
+                    <ButtonGroup spacing='6'>
+                        <Button colorScheme='green' bg='white'>Parceiros</Button>
+                        <Button colorScheme='green' bg='white'>Quero Reciclar</Button>
                     </ButtonGroup> 
                     </Center><br />
                     
@@ -69,8 +69,8 @@ import {
                     Veja abaixo alguns deles.
 
                     <Center>
-                    <ButtonGroup variant='outline' spacing='6'>
-                        <Button colorScheme='blue' bg='white'>Resíduos Especiais</Button>
+                    <ButtonGroup spacing='6'>
+                        <Button colorScheme='green' bg='white'>Resíduos Especiais</Button>
                     </ButtonGroup> 
                     </Center><br />
 

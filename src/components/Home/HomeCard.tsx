@@ -64,7 +64,7 @@ export function HomeCard(){
             </CardBody>
 
             <CardFooter>
-              <Button variant='solid' colorScheme='green' ml='70%' mt='20' className="btn">
+              <Button colorScheme='green' bg='white' ml='70%' mt='20' className="btn">
                 Entenda mais
               </Button>
             </CardFooter>

@@ -34,13 +34,13 @@ export function LoginCard(){
               </Stack>
               
               <Stack className='stack'>
-              <ButtonGroup className='btn' variant='outline' spacing='6'>
-                <Button colorScheme='blue' bg='white'>Entrar</Button>
-                <Button colorScheme='blue' bg='white'>Cadastre-se</Button>
+              <ButtonGroup className='btn' spacing='6'>
+                <Button colorScheme='green' bg='white'>Entrar</Button>
+                <Button colorScheme='green' bg='white'>Cadastre-se</Button>
                 </ButtonGroup> 
                 </Stack> 
                 <Stack>
-                <Link className='link' color='white'>Esqueci Minha Senha/Redefinir Senha</Link>
+                <Link className='link' color='white'>Esqueci Minha Senha</Link>
                 </Stack>
                 
 
