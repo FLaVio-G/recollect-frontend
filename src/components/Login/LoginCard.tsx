@@ -19,8 +19,8 @@ import {
 
 export function LoginCard(){
     return(
-        <Card>
-            <CardBody className='card' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px'>
+        <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+            <CardBody className='card'  >
             
             <Heading size="md" fontSize="3.5rem" mt='10' color="white">
                 Login

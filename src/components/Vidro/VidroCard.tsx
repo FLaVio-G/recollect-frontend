@@ -13,8 +13,8 @@ import {
   
   export function VidroCard() {
     return (
-      <Card>
-        <CardBody backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px'>
+      <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+        <CardBody>
           <Flex>
           <Stack maxW="960px" w='50%' >
             <CardBody>
