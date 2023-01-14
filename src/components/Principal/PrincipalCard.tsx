@@ -8,10 +8,11 @@ import {
   CardBody,
   Card,
   Flex,
-  Center
+  Center,
 } from "@chakra-ui/react";
 
 import caixa from "../../assets/imgs/caixas.png";
+
 
 export function PrincipalCard() {
   return (
