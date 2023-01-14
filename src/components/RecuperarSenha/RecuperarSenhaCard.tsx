@@ -31,7 +31,7 @@ import {
                 
                 <Stack className="stack" spacing={3}  width='50%'>
                         <Input placeholder='E-mail' type='email' width='50%'/>    
-                        <Button className="btn" colorScheme='green' bg='white' width='20%'>Atualizar</Button>
+                        <Button className="btn" colorScheme='green' bg='white' width='20%'>Enviar</Button>
                 </Stack>
 
             </Center>
