@@ -6,13 +6,14 @@ import { VidroCard } from "../components/Vidro/VidroCard";
 import { MetalCard } from "../components/Metal/MetalCard";
 import { ResiduosEspeciaisCard } from "../components/Residuos/ResíduosEspeciais";
 import { PlasticoCard } from "../components/Plastico/PlasticoCard";
+import { PapelCard } from "../components/Papel/PapelCard";
 
 function QuemSomos() {
     return (
       <>
       <Box bgImage={logo} height="100vh">
       <Header />
-      <PlasticoCard />
+      <PapelCard />
       </Box>
       </>
     )

@@ -10,50 +10,42 @@ import {
   } from "@chakra-ui/react";
   
   import papel from "../../assets/imgs/papel.png";
+  import './style.css'
   
   export function PapelCard() {
     return (
-      <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
-        <CardBody>
-          <Flex>
-          <Stack maxW="960px" w='50%' >
-            <CardBody>
-              <Heading size="md" fontSize="4rem" color="white">
-                Papel
-                <br /> <br />                
-              </Heading>
-  
-              <Text py="2" fontSize="1rem" color='white'>
-                # EMBALAGEM DE OVO <br />
-                # EMBALAGENS DE PRODUTOS DE HIGIENE<br />
-                # EMBALAGENS DE PRODUTOS DE LIMPEZA<br />
-                # JORNAIS<br />
-                # LISTA TELEFÔNICA <br />
-                # PAPÉIS DE DESENHOS<br />
-                # PAPÉIS DE ESCRITÓRIO<br />
-                # PAPÉIS DE SEDA<br />
-                # PAPÉIS IMPRESSOS<br />
-                # PAPEL ALUMÍNIO<br />
-                # PAPEL FILTRANTE<br />
-                # PAPEL HELIOGRÁFICO<br />
-                # PAPEL KRAFT<br />
-                # REVISTAS<br />
-                
-                
-              </Text>
-            </CardBody>
-          </Stack>
-  
-          <Stack mt='15%' >
-            <Center>
-            <Image src={papel}  />
-            </Center>
-            
-            
-          </Stack>
-          </Flex>
-        </CardBody>
-      </Card>
+      <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+  <CardBody >
+    
+    <Stack mt='6' spacing='3' textAlign='center'>
+      <Heading className="vidro" mt='6' fontSize='4rem'>PAPEL</Heading>
+      <Text className="text" fontSize='1rem' >
+                #EMBALAGEM DE OVO 
+                #EMBALAGENS DE PRODUTOS DE HIGIENE
+                #EMBALAGENS DE PRODUTOS DE LIMPEZA <br />
+                #JORNAIS
+                #LISTA TELEFÔNICA 
+                #PAPÉIS DE DESENHOS
+                #PAPÉIS DE ESCRITÓRIO<br />
+                #PAPÉIS DE SEDA
+                #PAPÉIS IMPRESSOS
+                #PAPEL ALUMÍNIO
+                #PAPEL FILTRANTE
+                #PAPEL HELIOGRÁFICO<br />
+                #PAPEL KRAFT
+                #REVISTAS
+      </Text>
+      <Center>
+      <Image 
+      align='center'
+      className="img"
+      src={papel}
+      alt='Green double couch with wooden legs'
+      borderRadius='lg'/>
+      </Center>
+      
+    </Stack>
+  </CardBody>
+</Card>      
     );
   }
-  
