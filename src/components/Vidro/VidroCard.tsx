@@ -6,48 +6,45 @@ import {
     CardBody,
     Card,
     Flex,
-    Center
+    Center,
+    Divider,
+    CardFooter,
+    ButtonGroup,
+    Button
   } from "@chakra-ui/react";
   
   import vidro from "../../assets/imgs/vidro.png";
-  
+  import './style.css'
   export function VidroCard() {
     return (
-      <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
-        <CardBody>
-          <Flex>
-          <Stack maxW="960px" w='50%' >
-            <CardBody>
-              <Heading size="md" fontSize="4rem" color="white">
-                VIDRO
-                <br /> <br />                
-              </Heading>
-  
-              <Text py="2" fontSize="1rem" color='white'>
-                # CACOS DE VIDRO <br />
-                # COPOS DE VIDRO<br />
-                # FRASCOS DE CONDIMENTOS<br />
-                # FRASCOS DE MOLHO<br />
-                # FRASCOS DE PERFUME<br />
-                # GARRAFAS DE BEBIDAS<br />
-                # LUMINÁRIAS<br />
-                # VIDROS DE AUTOMÓVEIS<br />
-                # VIDROS DE JANELAS<br />
-                
-              </Text>
-            </CardBody>
-          </Stack>
-  
-          <Stack mt='5%'  w='50%'>
-            <Center>
-            <Image src={vidro}  w='50%' h='100%' />
-            </Center>
-            
-            
-          </Stack>
-          </Flex>
-        </CardBody>
-      </Card>
+      <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+  <CardBody >
+    
+    <Stack mt='6' spacing='3' textAlign='center'>
+      <Heading className="vidro" mt='6' fontSize='4rem'>VIDRO</Heading>
+      <Text className="text" fontSize='1rem' >
+                #CACOS DE VIDRO 
+                #COPOS DE VIDRO
+                #FRASCOS DE CONDIMENTOS<br />
+                #FRASCOS DE MOLHO
+                #FRASCOS DE PERFUME
+                #GARRAFAS DE BEBIDAS<br />
+                #LUMINÁRIAS
+                #VIDROS DE AUTOMÓVEIS
+                #VIDROS DE JANELAS
+      </Text>
+      <Center>
+      <Image 
+      align='center'
+      className="img"
+      src={vidro}
+      alt='Green double couch with wooden legs'
+      borderRadius='lg'/>
+      </Center>
+      
+    </Stack>
+  </CardBody>
+</Card>      
     );
   }
   

@@ -9,7 +9,7 @@ import {
     Center
   } from "@chakra-ui/react";
   
-  import plastico from "../../assets/imgs/plastico.png";
+  import papel from "../../assets/imgs/papel.png";
   
   export function PapelCard() {
     return (
@@ -46,7 +46,7 @@ import {
   
           <Stack mt='15%' >
             <Center>
-            <Image src={plastico}  />
+            <Image src={papel}  />
             </Center>
             
             

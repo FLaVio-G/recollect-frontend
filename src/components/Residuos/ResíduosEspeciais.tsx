@@ -9,7 +9,7 @@ import {
     Center
   } from "@chakra-ui/react";
   
-  import plastico from '../../assets/imgs/plastico.png'
+  import residuos from '../../assets/imgs/residuos_especiais.png'
   export function ResiduosEspeciaisCard() {
     return (
       <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
@@ -39,7 +39,7 @@ import {
           <Stack mt='10%'  w='50%'>
             
           <Center>
-            <Image src={plastico}  />
+            <Image src={residuos}  />
             </Center>
             
           </Stack>
