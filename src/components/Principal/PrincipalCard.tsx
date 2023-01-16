@@ -22,7 +22,7 @@ export function PrincipalCard() {
         <Flex>
         <Stack maxW="960px" w='50%' >
           <CardBody>
-            <Heading size="md" fontSize="4rem" color="black">
+            <Heading size="md" fontSize="4rem" color="white">
               Olá nós somos a<br></br>Recollect
             </Heading>
 
