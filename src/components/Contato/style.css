@@ -1,0 +1,40 @@
+.card{
+    display: block;
+    text-align: center;
+}
+
+.stack_a{
+    align-items: center;
+    padding-bottom: 8px;
+    margin-top: 5%;
+    
+}
+.stack_a input{  
+    margin: 2px; 
+    border: 1px solid white;
+}
+
+.stack_b, .stack_c{
+    align-items: center;
+    padding-bottom: 10px;
+}
+.stack_b input{
+    border: 1px solid white;
+}
+
+.stack_c input{
+    height: 150px;
+    border: 1px solid white;
+}
+
+
+.link{
+    margin-bottom: 50px;
+}
+
+.btn{
+    width: 10%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}

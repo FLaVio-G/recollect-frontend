@@ -16,6 +16,7 @@ import caixa from "../../assets/imgs/caixas.png";
 
 export function PrincipalCard() {
   return (
+    
     <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody>
         <Flex>

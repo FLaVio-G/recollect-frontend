@@ -2,6 +2,7 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom/client"
 import App from "./App"
+// import { ContatoCard } from "./components/Contato/ContatoCard";
 // import Background from "./components/Background/background"
 // import { Header } from "./components/Header/Header"
 // import { PrincipalCard } from "./components/Principal/PrincipalCard"
@@ -26,7 +27,8 @@ const root = ReactDOM.createRoot(container);
 root.render(
   <React.StrictMode>
     
-      {/* <Header/>
+      {
+      /* <Header/>
       <PrincipalCard/> <br />
       <ReciclagemCard/><br />\book\pt-br\v2\Começando-Configuração-Inicial-do-Git
       <VidroCard/> <br />
