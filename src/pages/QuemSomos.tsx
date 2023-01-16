@@ -12,7 +12,7 @@ function QuemSomos() {
       <>
       <Box bgImage={logo} height="100vh">
       <Header />
-      <VidroCard />
+      <MetalCard />
       </Box>
       </>
     )
