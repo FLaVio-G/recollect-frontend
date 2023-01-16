@@ -10,10 +10,9 @@ export function Header() {
       gap="3"
     >
       <ButtonGroup>
-        <Button color="#1AA703" fontSize="1.5rem">
-          <LinkRoute to="/"> Recollect</LinkRoute>
+      <Button color="#1AA703" fontSize="1.5rem">
+          <LinkRoute to="/Recollect">Recollect</LinkRoute>
         </Button>
-
         <Button color="#1AA703" fontSize="1.5rem">
           <LinkRoute to="/QuemSomos">Quem somos</LinkRoute>
         </Button>

@@ -28,7 +28,7 @@ root.render(
     
       {/* <Header/>
       <PrincipalCard/> <br />
-      <ReciclagemCard/><br />
+      <ReciclagemCard/><br />\book\pt-br\v2\Começando-Configuração-Inicial-do-Git
       <VidroCard/> <br />
       <MetalCard/> <br />
       <PlasticoCard/> <br />

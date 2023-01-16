@@ -21,9 +21,10 @@ function Home() {
     <>
     <Box bgImage={logo} height="100vh">
       <Header />
-      <div>teste</div>
-      <PrincipalCard /> <br />
-      {/* <ReciclagemCard />
+      <HomeCard />
+      
+      {/*  <br />
+     
       <br />
       <VidroCard /> <br />
       <MetalCard /> <br />
@@ -31,7 +32,7 @@ function Home() {
       <PapelCard /> <br />
       <ResiduosComunsCard /> <br />
       <ResiduosEspeciaisCard />
-      <HomeCard />
+      
       <LoginCard />
       <CadastroCard />
       <DashboardCard />

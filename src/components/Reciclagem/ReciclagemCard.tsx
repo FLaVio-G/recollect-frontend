@@ -11,6 +11,8 @@ import {
     Center,
     ButtonGroup
   } from "@chakra-ui/react";
+  import { Link as LinkRoute } from "react-router-dom";
+
   
   import caixa from "../assets/caixas.png";
   

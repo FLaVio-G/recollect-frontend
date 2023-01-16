@@ -9,6 +9,7 @@ import Parceiros from "./pages/Parceiros";
 import QuemSomos from "./pages/QuemSomos";
 import QueroReciclar from "./pages/QueroReciclar";
 import Reciclagem from "./pages/Reciclagem";
+import Recollect from "./pages/Recollect";
 
 
 export default function Routes() {
@@ -16,6 +17,7 @@ export default function Routes() {
     <BrowserRouter>
       <WrapperRoutes>
         <Route path="/" element={<Home />} />
+        <Route path="/Recollect" element={<Recollect />} />
         <Route path="/login" element={<Login />} />
         <Route path="/Parceiros" element={<Parceiros />} />
         <Route path="/QuemSomos" element={<QuemSomos />} />
