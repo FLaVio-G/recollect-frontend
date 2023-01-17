@@ -26,7 +26,7 @@ export function LoginCard() {
       borderEndRadius="20px"
       variant="outline"
     >
-      <CardBody className="card">
+      <CardBody className="card" border='white'>
         <Heading size="md" fontSize="3.5rem" mt="10" color="white">
           Login
           <br /> <br />

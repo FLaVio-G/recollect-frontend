@@ -52,6 +52,7 @@ export function HomeCard() {
           <CardFooter>
             <Button
               colorScheme="green"
+              color='black'
               bg="white"
               ml="70%"
               mt="20"
