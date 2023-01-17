@@ -10,7 +10,14 @@ import {
     Button,
     ButtonGroup,
     Flex,
-    Input
+    Input,
+    Popover,
+    PopoverArrow,
+    PopoverBody,
+    PopoverCloseButton,
+    PopoverContent,
+    PopoverHeader,
+    PopoverTrigger
   } from "@chakra-ui/react";
   
   import forest from "../../assets/imgs/home-forest.png";
@@ -19,8 +26,49 @@ import {
   
   export function RecuperarSenhaCard(){
       return(
-        <Card className="cadastro_card" backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+        <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+  <CardBody >
+    
+    <Stack mt='6' spacing='3' textAlign='center'>
+    <Center>
+                <Heading size="md" fontSize="3.5rem" mt='10' color="white">
+                    Recuperação de Senha
+                    <br /> <br />                 
+                </Heading>
+            </Center>
+
             <Center>
+                
+                <Stack className="stack" spacing={3}  width='70%'>
+                        <Input placeholder='e-mail' type='email' width='50%'/>    
+                        <Popover>
+                        <PopoverTrigger>
+                        <Button className="btn" colorScheme='green' bg='white' width='20%'>Enviar</Button>
+                        </PopoverTrigger>
+                        <PopoverContent>
+                            <PopoverArrow />
+                            <PopoverCloseButton />
+                            <PopoverBody>Você receberá as instruções para redefinição de senha por e-mail.</PopoverBody>
+                        </PopoverContent>
+                        </Popover>
+                        
+                </Stack>
+
+            </Center>
+      
+    </Stack>
+  </CardBody>
+</Card>  
+      )
+  }
+  
+
+
+  <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+  <CardBody >
+    
+    <Stack mt='6' spacing='3' textAlign='center'>
+    <Center>
                 <Heading size="md" fontSize="3.5rem" mt='10' color="white">
                     Recuperação de Senha
                     <br /> <br />                 
@@ -35,7 +83,7 @@ import {
                 </Stack>
 
             </Center>
-            </Card>
-      )
-  }
-  
+      
+    </Stack>
+  </CardBody>
+</Card>   

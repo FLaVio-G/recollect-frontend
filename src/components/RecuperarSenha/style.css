@@ -1,4 +1,16 @@
 .stack .btn{
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom: 10%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.stack input{
+    width: 100%;
+    border: 1px solid white;
+    color: black;
+}
+
+.stack input::placeholder{
+    color: white;
 }

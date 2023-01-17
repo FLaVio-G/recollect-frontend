@@ -7,8 +7,19 @@
     align-items: center;
 }
 
+.stack input{
+    border: 1px solid white;
+    color: black;
+}
+
+.stack input::placeholder{
+    color: white;
+}
+
 .link{
     margin-bottom: 50px;
 }
+
+
 
 

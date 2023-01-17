@@ -2,7 +2,11 @@
     margin-left: 5%;
    margin-bottom: 10%;
     margin-right: 10%;
-    
+}
+
+.stack_a input{
+    border: 1px solid white;
+    color: black;
 }
 
 .stack_b{
@@ -13,5 +17,20 @@
     padding-top: 10%;
     padding-bottom: 10%;
     align-items: flex-end;
+}
+
+.stack_a input,
+.stack_b input,
+.stack_b2 input,
+.stack_b3 input{
+    border: 1px solid white;
+    color: black;
+}
+
+.stack_a input::placeholder,
+.stack_b input::placeholder,
+.stack_b2 input::placeholder,
+.stack_b3 input::placeholder{
+    color: white;
 }
 

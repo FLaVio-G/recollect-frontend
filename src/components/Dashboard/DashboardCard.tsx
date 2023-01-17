@@ -10,7 +10,14 @@ import {
     Button,
     ButtonGroup,
     Flex,
-    Input
+    Input,
+    Popover,
+    PopoverArrow,
+    PopoverBody,
+    PopoverCloseButton,
+    PopoverContent,
+    PopoverHeader,
+    PopoverTrigger
   } from "@chakra-ui/react";
   
   import forest from "../../assets/imgs/home-forest.png";
@@ -62,7 +69,17 @@ import {
                             </Flex>
                         </Stack>
                         <Stack className="btn">
-                            <Button colorScheme='green' bg='white'>Atualizar</Button>
+                        <Popover>
+                        <PopoverTrigger>
+                        <Button colorScheme='green' bg='white'>Atualizar</Button>
+                        </PopoverTrigger>
+                        <PopoverContent>
+                            <PopoverArrow />
+                            <PopoverCloseButton />
+                            <PopoverBody>Informações atualizadas com sucesso.</PopoverBody>
+                        </PopoverContent>
+                        </Popover>
+                            
                             </Stack>
                     </Stack>
                 </Flex>
