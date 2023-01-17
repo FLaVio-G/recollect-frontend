@@ -1,11 +1,12 @@
 .card{
-    height: 80%;
+ 
 
 }
-.stack .btn{
+.stack .btnenviar{
     margin-top: 15%;
     margin-bottom: 10%;
     width: 50%;
+    margin-left: 25%;
 }
 
 .stack input{

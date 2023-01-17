@@ -43,7 +43,7 @@ import {
                         <Input placeholder='e-mail' type='email'/>    
                         <Popover>
                         <PopoverTrigger>
-                        <Button className="btn" colorScheme='green' bg='white' width='20%'>Enviar</Button>
+                        <Button className="btnenviar" colorScheme='green' bg='white' width='20%'>Enviar</Button>
                         </PopoverTrigger>
                         <PopoverContent>
                             <PopoverArrow />

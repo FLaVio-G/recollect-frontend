@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.stack{
+.stack_a{
     align-items: center;
     margin-bottom: -100px;
 }
@@ -12,10 +12,10 @@
     margin-left: 45%;
 }
 
-.stack input{
+.stack_a input{
     border: 1px solid white;
     color: black;
-    width: 30%;
+    width: 50%;
 }
 
 .stack input::placeholder{

@@ -24,7 +24,7 @@ import {
     
     <Stack mt='6' spacing='3' textAlign='center'>
       <Heading className="vidro" mt='6' fontSize='4rem'>VIDRO</Heading>
-      <Text className="text" fontSize='1rem' >
+      <Text className="text_vidro" fontSize='1rem' >
                 #CACOS DE VIDRO 
                 #COPOS DE VIDRO
                 #FRASCOS DE CONDIMENTOS<br />

@@ -19,7 +19,7 @@ import {
     
     <Stack mt='6' spacing='3' textAlign='center'>
       <Heading className="metal" mt='6' fontSize='4rem'>METAL</Heading>
-      <Text className="text" fontSize='1rem' >
+      <Text className="text_metal" fontSize='1rem' >
                 #FERRAGENS 
                 #FIOS DE COBRE
                 #LATAS DE AEROSOL<br />

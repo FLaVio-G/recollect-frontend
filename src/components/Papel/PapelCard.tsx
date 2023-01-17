@@ -19,7 +19,7 @@ import {
     
     <Stack mt='6' spacing='3' textAlign='center'>
       <Heading className="vidro" mt='6' fontSize='4rem'>PAPEL</Heading>
-      <Text className="text" fontSize='1rem' >
+      <Text className="text_papel" fontSize='1rem' >
                 #EMBALAGEM DE OVO 
                 #EMBALAGENS DE PRODUTOS DE HIGIENE
                 #EMBALAGENS DE PRODUTOS DE LIMPEZA <br />

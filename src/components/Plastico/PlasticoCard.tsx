@@ -19,7 +19,7 @@ import {
     
     <Stack mt='6' spacing='3' textAlign='center'>
       <Heading className="vidro" mt='6' fontSize='4rem'>PLÁSTICO</Heading>
-      <Text className="text" fontSize='1rem' >
+      <Text className="text_plastico" fontSize='1rem' >
                 # ACRÍLICOS 
                 # CÁPSULAS DE CAFÉ
                 # COPOS DE PLÁSTICO 

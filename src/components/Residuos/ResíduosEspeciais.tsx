@@ -19,7 +19,7 @@ import {
     
     <Stack mt='6' spacing='3' textAlign='center'>
       <Heading className="vidro" mt='6' fontSize='4rem'>Resíduos Especiais</Heading>
-      <Text className="text" fontSize='1rem' >
+      <Text className="text_residuosespeciais" fontSize='1rem' >
                 #RESÍDUOS DE SAÚDE
                 #ELETRÔNICOS
                 #PILHAS E BATERIAS<br />

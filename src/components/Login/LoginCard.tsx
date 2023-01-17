@@ -31,17 +31,17 @@ export function LoginCard() {
           Login
           <br /> <br />
         </Heading>
-        <Stack className="stack">
-          <Input placeholder="E-mail" type="email" />
+        <Stack className="stack_a">
+          <Input placeholder="E-mail" type="email"/>
           <Input placeholder="Senha" type="password" />
         </Stack>
 
         <Stack className="stack_b">
           <ButtonGroup className="btn">
-            <Button colorScheme="green" bg="white">
+            <Button  bg="white">
               Entrar
             </Button>
-            <Button colorScheme="green" bg="white">
+            <Button  bg="white">
               <LinkRoute to="/Cadastro">Cadastre-se</LinkRoute>
             </Button>
           </ButtonGroup>
