@@ -6,7 +6,7 @@ import { RecuperarSenhaCard } from "../components/RecuperarSenha/RecuperarSenhaC
 function EsqueciMinhaSenha() {
   return (
   
-     <Box bgImage={logo} height="100vh">
+     <Box backgroundSize='cover' bgImage={logo} height="100vh">
     <Header />
     <RecuperarSenhaCard />
     </Box>

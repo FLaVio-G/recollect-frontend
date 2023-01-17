@@ -12,7 +12,7 @@ import { ResiduosEspeciaisCard } from "../components/Residuos/ResíduosEspeciais
 function Reciclagem() {
   return (
     <>
-      <Box bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' bgImage={logo} height="100vh">
       <Header />
       <ReciclagemCard />
       <VidroCard /> <br />

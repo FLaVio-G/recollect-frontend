@@ -2,13 +2,14 @@ import { Header } from "../components/Header/Header";
 import { Box } from "@chakra-ui/react";
 import logo from "../assets/imgs/morro-2.png";
 import { MapaParceiros } from "../components/googleMaps/MapaParceiros";
+import { ParceirosCard } from "../components/Parceiros/ParceirosCard";
 
 function Parceiros() {
   return (
     <>
-      <Box bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' bgImage={logo} height="100vh">
         <Header />
-        <MapaParceiros />
+        <ParceirosCard />
       </Box>
     </>
   );

@@ -5,7 +5,7 @@ import { CadastroCard } from "../components/Cadastro/CadastroCard";
 
 function Cadastro() {
   return (
-    <Box bgImage={logo} height="100vh">
+    <Box backgroundSize='cover' bgImage={logo} height="100vh">
       <Header />
       <CadastroCard />
     </Box>

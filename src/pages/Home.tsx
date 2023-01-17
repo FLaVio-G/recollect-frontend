@@ -7,7 +7,7 @@ import logo from "../assets/imgs/morro-2.png";
 function Home() {
   return (
     <>
-      <Box bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' bgImage={logo} height="100vh">
         <Header />
         <HomeCard />
       </Box>

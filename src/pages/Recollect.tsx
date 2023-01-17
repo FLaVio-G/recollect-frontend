@@ -6,7 +6,7 @@ import { HomeCard } from "../components/Home/HomeCard";
 
 function Recollect() {
   return (
-    <Box bgImage={logo} height="100vh">
+    <Box backgroundSize='cover' bgImage={logo} height="100vh">
       <Header/>
       <HomeCard />
     </Box>
