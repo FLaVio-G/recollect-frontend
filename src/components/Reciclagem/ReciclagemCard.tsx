@@ -36,11 +36,11 @@ import {
               Veja abaixo uma lista de cada um deles:<br /> <br /> 
                     <Center>
                     <ButtonGroup spacing='6'>
-                        <Button colorScheme='green' bg='white'>Papel</Button>
-                        <Button colorScheme='green' bg='white'>Plástico</Button>
-                        <Button colorScheme='green' bg='white'>Vidro</Button>
-                        <Button colorScheme='green' bg='white'>Metal</Button>
-                        <Button colorScheme='green' bg='white'>Res. Não Recicláveis</Button>
+                        <Button colorScheme="green" color='black' bg="white">Papel</Button>
+                        <Button colorScheme="green" color='black' bg="white">Plástico</Button>
+                        <Button colorScheme="green" color='black' bg="white">Vidro</Button>
+                        <Button colorScheme="green" color='black' bg="white">Metal</Button>
+                        <Button colorScheme="green" color='black' bg="white">Res. Não Recicláveis</Button>
                     </ButtonGroup> 
                     </Center><br />
                     
@@ -61,8 +61,8 @@ import {
               Agora que você já tem seus materiais limpos e separados, pode entrar em contato com uma das nossas empresas parceiras.<br /> <br /> 
                     <Center>
                     <ButtonGroup spacing='6'>
-                        <Button colorScheme='green' bg='white'>Parceiros</Button>
-                        <Button colorScheme='green' bg='white'>Quero Reciclar</Button>
+                        <Button colorScheme="green" color='black' bg="white">Parceiros</Button>
+                        <Button colorScheme="green" color='black' bg="white">Quero Reciclar</Button>
                     </ButtonGroup> 
                     </Center><br />
                     
@@ -72,7 +72,7 @@ import {
 
                     <Center>
                     <ButtonGroup spacing='6'>
-                        <Button colorScheme='green' bg='white'>Resíduos Especiais</Button>
+                        <Button colorScheme="green" color='black' bg="white">Resíduos Especiais</Button>
                     </ButtonGroup> 
                     </Center><br />
 
