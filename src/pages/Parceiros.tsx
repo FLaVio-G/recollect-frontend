@@ -5,9 +5,8 @@ import logo from "../assets/imgs/morro-2.png";
 function Parceiros() {
   return (
     <>
-     <Box bgImage={logo} height="100vh">
-      <Header />
-      <div>Parceiros</div>
+      <Box bgImage={logo} height="100vh">
+        <Header />
       </Box>
     </>
   );

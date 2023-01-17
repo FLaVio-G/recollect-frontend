@@ -3,6 +3,8 @@ import {
   Route,
   BrowserRouter,
 } from "react-router-dom";
+import Cadastro from "./pages/Cadastro";
+import EsqueciMinhaSenha from "./pages/EsqueciMinhaSenha";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Parceiros from "./pages/Parceiros";
@@ -23,6 +25,8 @@ export default function Routes() {
         <Route path="/QuemSomos" element={<QuemSomos />} />
         <Route path="/QueroReciclar" element={<QueroReciclar />} />
         <Route path="/Reciclagem" element={<Reciclagem />} />
+        <Route path="/EsqueciMinhaSenha" element={<EsqueciMinhaSenha />} />
+        <Route path="/Cadastro" element={<Cadastro />} />
       </WrapperRoutes>
     </BrowserRouter>
   );

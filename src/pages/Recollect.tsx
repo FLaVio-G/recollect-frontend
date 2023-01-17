@@ -1,15 +1,15 @@
-import { Header } from "../components/Header/Header";
 import { Box } from "@chakra-ui/react";
 import logo from "../assets/imgs/morro-2.png";
-import { ReciclagemCard } from "../components/Reciclagem/ReciclagemCard";
+import { Header } from "../components/Header/Header";
+
+import { HomeCard } from "../components/Home/HomeCard";
 
 function Recollect() {
   return (
-
-      <Box bgImage={logo} height="100vh">
-      <Header />
-      <ReciclagemCard />
-      </Box>
+    <Box bgImage={logo} height="100vh">
+      <Header/>
+      <HomeCard />
+    </Box>
   );
 }
 export default Recollect;

@@ -1,16 +1,16 @@
 import { Header } from "../components/Header/Header"
 import logo from "../assets/imgs/morro-2.png";
 import { Box } from "@chakra-ui/react";
-import { LoginCard } from "../components/Login/LoginCard";
-function Login() {
+import { RecuperarSenhaCard } from "../components/RecuperarSenha/RecuperarSenhaCard";
+
+function EsqueciMinhaSenha() {
   return (
   
      <Box bgImage={logo} height="100vh">
     <Header />
-    <LoginCard />
-    
+    <RecuperarSenhaCard />
     </Box>
 
   )
 }
-export default Login
+export default EsqueciMinhaSenha
