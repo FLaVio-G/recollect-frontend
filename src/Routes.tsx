@@ -6,12 +6,16 @@ import {
 import Cadastro from "./pages/Cadastro";
 import EsqueciMinhaSenha from "./pages/EsqueciMinhaSenha";
 import Home from "./pages/Home";
-import Login from "./pages/Login/Login";
+import Login from "./pages/Login";
+
 import Parceiros from "./pages/Parceiros";
-import QuemSomos from "./pages/QuemSomos/QuemSomos";
+import QuemSomos from "./pages/QuemSomos";
+
 import QueroReciclar from "./pages/QueroReciclar";
-import Reciclagem from "./pages/Reciclagem/Reciclagem";
-import Recollect from "./pages/Recollect/Recollect";
+import Reciclagem from "./pages/Reciclagem";
+import Recollect from "./pages/Recollect";
+
+
 
 
 export default function Routes() {
