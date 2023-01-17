@@ -38,10 +38,10 @@ export function LoginCard() {
 
         <Stack className="stack_b">
           <ButtonGroup className="btn">
-            <Button colorScheme="green" bg="white">
+            <Button colorScheme="green" color='black' bg="white">
               Entrar
             </Button>
-            <Button colorScheme="green" bg="white">
+            <Button colorScheme="green" color='black' bg="white">
               <LinkRoute to="/Cadastro">Cadastre-se</LinkRoute>
             </Button>
           </ButtonGroup>
