@@ -32,17 +32,17 @@ export function LoginCard() {
           <br /> <br />
         </Heading>
         <Stack className="stack">
-          <Input placeholder="E-mail" type="email" width="30%" />
-          <Input placeholder="Senha" type="password" width="30%" />
+          <Input placeholder="E-mail" type="email" />
+          <Input placeholder="Senha" type="password" />
         </Stack>
 
-        <Stack className="stack">
+        <Stack className="stack_b">
           <ButtonGroup className="btn">
             <Button colorScheme="green" bg="white">
               Entrar
             </Button>
             <Button colorScheme="green" bg="white">
-              <LinkRoute to="/Cadastro">Cadastro</LinkRoute>
+              <LinkRoute to="/Cadastro">Cadastre-se</LinkRoute>
             </Button>
           </ButtonGroup>
         </Stack>

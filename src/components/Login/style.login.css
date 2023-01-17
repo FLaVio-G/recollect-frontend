@@ -5,11 +5,17 @@
 
 .stack{
     align-items: center;
+    margin-bottom: -100px;
+}
+
+.stack_b Button{
+    margin-left: 45%;
 }
 
 .stack input{
     border: 1px solid white;
     color: black;
+    width: 30%;
 }
 
 .stack input::placeholder{
@@ -17,6 +23,7 @@
 }
 
 .link{
+    margin-top: -50px;
     margin-bottom: 50px;
 }
 

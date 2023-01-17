@@ -11,7 +11,7 @@ function Login() {
   
      <Box backgroundSize='cover' bgImage={logo} height="100vh">
     <Header />
-    <DashboardCard />
+    <LoginCard />
     
     </Box>
 
