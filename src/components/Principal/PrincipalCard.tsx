@@ -52,7 +52,7 @@ export function PrincipalCard() {
           
           <Center>
           <CardFooter>  
-            <Button variant="solid" colorScheme="blue">
+            <Button colorScheme="green" color='black' bg="white">
               Entre em contato
             </Button>
            </CardFooter>
