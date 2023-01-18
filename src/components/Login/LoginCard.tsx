@@ -28,7 +28,7 @@ export function LoginCard() {
       variant="outline"
     >
       <CardBody border='white'>
-        <Heading size="md" fontSize="3.5rem" mt="10" color="white">
+        <Heading fontSize="4rem" color="white">
           Login
           <br /> <br />
         </Heading>

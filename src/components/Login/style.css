@@ -2,7 +2,6 @@
     display: block;
     text-align: center;
     margin-top: 5%;
-    height: 600px;
 }
 
 .input-email-senha-logincard{
@@ -11,16 +10,16 @@
 }
 
 .input-email-senha-logincard input::placeholder{
-   
     color: white;
 }
 
 .entrar-cadastre-se-botoes{
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .link-esqueci-minha-senha{
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 

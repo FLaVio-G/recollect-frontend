@@ -20,8 +20,8 @@ import {
       <Card className="parceiros-card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
-    <Stack mt='6' spacing='3' textAlign='center'>
-      <Heading mt='6' fontSize='4rem' color='white'>PARCEIROS</Heading>
+    <Stack spacing='3' textAlign='center'>
+      <Heading fontSize='4rem' color='white'>PARCEIROS</Heading>
       <Center>
       <Text className="texto-parceiros-card" fontSize='1rem' color='white' >
       A Recollect conta com inúmeras empresas parceiras que vão te apoiar no processo de descarte e reciclagem do seu lixo. <br />
