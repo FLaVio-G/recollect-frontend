@@ -1,15 +1,34 @@
-.stack_a{
-    margin-left: 5%;
-   margin-bottom: 10%;
-    margin-right: 10%;
-    
+.dashboard-card{
+    margin-top: 3%;
 }
-
-.stack_b{
+.coluna-nome-da-empresa-dashboard-card{
+    margin-left: 5%;
     margin-right: 5%;
 }
 
-.stack_b .btn{
+.coluna-nome-da-empresa-dashboard-card input{
+    border: 1px solid white;
+    color: black;
+}
+
+.coluna-nome-da-empresa-dashboard-card input::placeholder{
+    color: white;
+}
+
+.coluna-site-da-empresa-dashboard-card{
+    margin-right: 5%;
+}
+
+.coluna-site-da-empresa-dashboard-card input{
+    border: 1px solid white;
+    color: black;
+}
+
+.coluna-site-da-empresa-dashboard-card input::placeholder{
+    color: white;
+}
+
+.botao-atualizar-dashboard-card{
     padding-top: 10%;
     padding-bottom: 10%;
     align-items: flex-end;
