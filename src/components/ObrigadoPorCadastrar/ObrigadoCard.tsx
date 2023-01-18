@@ -30,7 +30,7 @@ import {
             <Center>
 
                 <Stack className="obrigado-card-texto-e-botao-enviar" align='center'>
-                <Text className="obrigado-card-texto" align='center' fontSize='1.2rem'>
+                <Text className="obrigado-card-texto" align='center' fontSize='1.2rem' color='white'>
                     Vamos analisar suas informações e entraremos em contato para formalizar a inscrição. <br />
                     Os dados da sua empresa estarão disponíveis na nossa plataforma em breve.
                 </Text>
