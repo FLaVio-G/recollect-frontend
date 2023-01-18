@@ -12,7 +12,7 @@ export function Header() {
     > 
     <div className="header">
     <ButtonGroup>
-      <Button color="#1AA703" fontSize="1.5rem">
+      <Button color="#1AA703" fontSize="2rem">
           <LinkRoute to="/Recollect">Recollect</LinkRoute>
         </Button>
         <Button color="#1AA703" fontSize="1.5rem">

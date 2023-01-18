@@ -33,7 +33,7 @@ export function CadastroCard() {
 
       <Center>
         <Flex>
-          <Stack className="stack_a" spacing={3} width="100%">
+          <Stack className="coluna-nome-da-empresa" spacing={3} width="100%">
             <Input placeholder="Nome da empresa*" type="name" />
             <Input placeholder="Nome do responsável*" type="name" />
             <Input placeholder="E-mail da empresa*" type="name" />
@@ -42,14 +42,14 @@ export function CadastroCard() {
             <Input placeholder="E-mail para login*" type="email" />
           </Stack>
 
-          <Stack className="stack_b" spacing={3} width="100%">
-            <Stack className="stack_b1" spacing={3}>
+          <Stack className="coluna-site-da-empresa" spacing={3} width="100%">
+            <Stack className="coluna-site-tel-endereco" spacing={3}>
               <Input placeholder="Site da empresa" type="name" />
               <Input placeholder="Telefone do responsável" type="name" />
               <Input placeholder="Endereço da empresa*" type="name" />
             </Stack>
 
-            <Stack className="stack_b2" spacing={3}>
+            <Stack className="coluna-cep-cidade-estado" spacing={3}>
               <Flex>
                 <Input placeholder="CEP*" type="name" width="33%" />
                 <Input placeholder="Cidade*" type="name" width="33%" />
@@ -57,7 +57,7 @@ export function CadastroCard() {
               </Flex>
             </Stack>
 
-            <Stack className="stack_b3" spacing={3}>
+            <Stack className="coluna-senha-repetir-senha" spacing={3}>
               <Input
                 placeholder="Retira o material em outros endereços?"
                 type="name"

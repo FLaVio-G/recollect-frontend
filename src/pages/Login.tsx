@@ -6,12 +6,13 @@ import { CadastroCard } from "../components/Cadastro/CadastroCard";
 import { RecuperarSenhaCard } from "../components/RecuperarSenha/RecuperarSenhaCard";
 import { RedefinirSenhaCard } from "../components/Redefinir/RedefinirSenhaCard";
 import { DashboardCard } from "../components/Dashboard/DashboardCard";
+import { ContatoCard } from "../components/Contato/ContatoCard";
 function Login() {
   return (
   
      <Box backgroundSize='cover' bgImage={logo} height="100vh">
     <Header />
-    <LoginCard />
+    <ContatoCard />
     
     </Box>
 

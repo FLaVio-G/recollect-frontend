@@ -20,37 +20,37 @@ import {
 
 export function ContatoCard(){
     return(
-        <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+        <Card className='contato-card' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
             <CardBody className='card'  >
             
-            <Heading size="md" fontSize="3.5rem" mt='10' color="white">
+            <Heading textAlign='center' fontSize="3.5rem" color="white">
                  Entre em Contato!<br />                                
             </Heading>
-            <Heading size="md" fontSize="1em" color="white">
+            <Heading textAlign='center' mt='6' fontSize="1em" color="white">
                 Ficou com alguma dúvida? Quer saber mais? Nos mande uma mensagem e, em breve, entraremos em contato.
             </Heading>
             
               <Stack className='icons'>
               
               </Stack>
-              <Stack className='stack_a'>   
+              <Stack className='inputs-nome-e-sobrenome' align='center'>   
                 <Flex>
-                    <Input placeholder='Nome' type='text'/> 
+                    <Input placeholder='Nome' type='text' color='white'/> 
                     <Input placeholder='Sobrenome' type='text'/>
                 </Flex>           
                                           
               </Stack>
               
               
-              <Stack className='stack_b'>              
+              <Stack className='input-email-contato-card' align='center'>              
                         <Input placeholder='E-mail' type='email' width='30%'/>                 
               </Stack>
 
-              <Stack className='stack_c'>              
+              <Stack className='input-msg-contato-card' align='center'>              
                         <Input className='b' placeholder='Mensagem' type='text' width='30%'/>                  
               </Stack>
               
-                <Stack className='stack_c'>
+                <Stack className='botao-enviar-contato-card' align='center'>
                     
                         <Button className='contato_card_btn' colorScheme='green' bg='white'>Enviar</Button>
                      
