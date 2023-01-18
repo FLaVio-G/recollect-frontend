@@ -19,7 +19,7 @@ import {
     
     <Stack spacing='3' textAlign='center'>
       <Heading mt='6' fontSize='4rem'>METAL</Heading>
-      </Stack>
+    </Stack>
 
       <Stack textAlign='center' mt='6' className="texto_metal">
       <Text fontSize='1rem' >
@@ -38,7 +38,7 @@ import {
       <Stack mt='6'>
       <Center>
       <Image
-      className="img-metal"
+      align='center'
       src={metal}
       alt='Green double couch with wooden legs'
       borderRadius='lg'/>

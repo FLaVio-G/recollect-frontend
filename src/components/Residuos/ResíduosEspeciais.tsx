@@ -14,12 +14,15 @@ import {
   
   export function ResiduosEspeciaisCard() {
     return (
-      <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
-    <Stack mt='6' spacing='3' textAlign='center'>
-      <Heading className="vidro" mt='6' fontSize='4rem'>Resíduos Especiais</Heading>
-      <Text className="text_residuosespeciais" fontSize='1rem' >
+    <Stack spacing='3' textAlign='center'>
+      <Heading mt='6' fontSize='4rem'>Resíduos Especiais</Heading>
+    </Stack>
+
+    <Stack textAlign='center' mt='6' className="texto_residuosespeciais">
+    <Text fontSize='1rem' >
                 #RESÍDUOS DE SAÚDE
                 #ELETRÔNICOS
                 #PILHAS E BATERIAS<br />
@@ -28,7 +31,10 @@ import {
                 #ÓLEO DE COZINHA
                 #REVISTAS
       </Text>
-      <Center>
+    </Stack>
+
+    <Stack mt='6'>
+    <Center>
       <Image 
       align='center'
       className="img"
@@ -36,8 +42,10 @@ import {
       alt='Green double couch with wooden legs'
       borderRadius='lg'/>
       </Center>
+    </Stack>  
       
-    </Stack>
+      
+    
   </CardBody>
 </Card>      
     );

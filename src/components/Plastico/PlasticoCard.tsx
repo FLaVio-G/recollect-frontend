@@ -14,12 +14,12 @@ import {
 
   export function PlasticoCard() {
     return (
-      <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
-    <Stack mt='6' spacing='3' textAlign='center'>
-      <Heading className="vidro" mt='6' fontSize='4rem'>PLÁSTICO</Heading>
-      <Text className="text_plastico" fontSize='1rem' >
+    <Stack spacing='3' textAlign='center'>
+      <Heading mt='6' fontSize='4rem'>PLÁSTICO</Heading>
+      <Text mt='6' fontSize='1rem' >
                 # ACRÍLICOS 
                 # CÁPSULAS DE CAFÉ
                 # COPOS DE PLÁSTICO 
@@ -41,8 +41,8 @@ import {
       </Text>
       <Center>
       <Image 
+      mt='6'
       align='center'
-      className="img"
       src={plastico}
       alt='Green double couch with wooden legs'
       borderRadius='lg'/>
