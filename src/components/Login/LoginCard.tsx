@@ -1,5 +1,5 @@
 import {
- 
+
   Input,
   Card,
   CardBody,
@@ -17,7 +17,7 @@ import "./style.css";
 
 export function LoginCard() {
   return (
-    <Card  className="card_login"
+    <Card className="card_login"
       backdropFilter="auto"
       backdropBlur="40px"
       ml="2%"
@@ -34,23 +34,23 @@ export function LoginCard() {
         </Heading>
 
         <Center>
-        <Stack className="input-email-senha-logincard">
-          <Input placeholder="E-mail" type="email"/>
-          <Input placeholder="Senha" type="password" />
-        </Stack>
+          <Stack className="input-email-senha-logincard">
+            <Input placeholder="E-mail" type="email" />
+            <Input placeholder="Senha" type="password" />
+          </Stack>
         </Center>
-        
+
         <Center>
-        <Stack className="entrar-cadastre-se-botoes">
-          <ButtonGroup className="login_card_btn">
-            <Button colorScheme="green" color='black' bg="white">
-            <LinkRoute to="/Home">Entrar</LinkRoute>
-            </Button>
-            <Button colorScheme="green" color='black' bg="white">
-              <LinkRoute to="/Cadastro">Cadastre-se</LinkRoute>
-            </Button>
-          </ButtonGroup>
-        </Stack>
+          <Stack className="entrar-cadastre-se-botoes">
+            <ButtonGroup className="login_card_btn">
+              <Button colorScheme="green" color='black' bg="white">
+                <LinkRoute to="/Home">Entrar</LinkRoute>
+              </Button>
+              <Button colorScheme="green" color='black' bg="white">
+                <LinkRoute to="/Cadastro">Cadastre-se</LinkRoute>
+              </Button>
+            </ButtonGroup>
+          </Stack>
         </Center>
         <Stack className="link-esqueci-minha-senha">
           <Link
@@ -64,7 +64,7 @@ export function LoginCard() {
         <Center>
 
         </Center>
-        
+
       </CardBody>
     </Card>
   );

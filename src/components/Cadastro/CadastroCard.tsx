@@ -24,12 +24,11 @@ export function CadastroCard() {
       borderEndRadius="20px"
       variant="outline"
     >
-      
-        <Heading className="titulo-novo-cadastro" fontSize="3.5rem" mt="10" textAlign='center' color="white">
-          Novo Cadastro
-          <br /> <br />
-        </Heading>
-      
+
+      <Heading className="titulo-novo-cadastro" fontSize="3.5rem" mt="10" textAlign='center' color="white">
+        Novo Cadastro
+        <br /> <br />
+      </Heading>
 
       <Center>
         <Flex>
@@ -74,7 +73,7 @@ export function CadastroCard() {
 
             <Stack className='stack-c' align='end' >
               <Button className="botao-cadastrar" colorScheme="green" color='black' bg="white">
-              <LinkRoute to="/ObrigadoPorCadastrar">Cadastrar</LinkRoute>
+                <LinkRoute to="/ObrigadoPorCadastrar">Cadastrar</LinkRoute>
               </Button>
             </Stack>
           </Stack>

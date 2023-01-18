@@ -30,42 +30,42 @@ export function HomeCard() {
       variant="outline"
       align="center"
     >
-      
-        <Stack className="img-texto-btn-home-card">
+
+      <Stack className="img-texto-btn-home-card">
         <Flex>
-        <Stack className="forest-img">
-          <Image objectFit="cover" src={forest} />
-        </Stack>
+          <Stack className="forest-img">
+            <Image src={forest} />
+          </Stack>
 
-        <Stack className="texto-home">
-          <CardBody>
-            <Text
-              color="white"
-              fontSize="3rem"
-              fontWeight='bold'
-              mt="10"
-              ml="10"
-            >
-              Cuidar, educar, <br />
-              conscientizar e somar. <br />
-              Ajudando você a <br />
-              preservar a natureza.
-            </Text>
-          </CardBody>
+          <Stack className="texto-home">
+            <CardBody>
+              <Text
+                color="white"
+                fontSize="3rem"
+                fontWeight='bold'
+                mt="10"
+                ml="10"
+              >
+                Cuidar, educar, <br />
+                conscientizar e somar. <br />
+                Ajudando você a <br />
+                preservar a natureza.
+              </Text>
+            </CardBody>
 
-          <CardFooter>
-            <Button
-              colorScheme="green"
-              color='black'
-              bg="white"
-              ml="70%"
-            >
-              <LinkRoute to="/Reciclagem">Entenda Mais</LinkRoute>
-            </Button>
-          </CardFooter>
-        </Stack>
+            <CardFooter>
+              <Button
+                colorScheme="green"
+                color='black'
+                bg="white"
+                ml="70%"
+              >
+                <LinkRoute to="/Reciclagem">Entenda Mais</LinkRoute>
+              </Button>
+            </CardFooter>
+          </Stack>
         </Flex>
-        </Stack>
+      </Stack>
     </Card>
   );
 }

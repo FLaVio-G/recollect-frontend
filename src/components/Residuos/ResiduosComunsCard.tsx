@@ -1,31 +1,31 @@
 import {
-    Text,
-    Stack,
-    Heading,
-    Image,
-    CardBody,
-    Card,
-    Flex,
-    Center
-  } from "@chakra-ui/react";
-  
-  
-  export function ResiduosComunsCard() {
-    return (
-      <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
-        <CardBody >
-          
-          <Stack>            
-              <Heading mt='6' fontSize="4rem" color="white">
-                RESÍDUOS NÃO RECICLÁVEIS
-                <br /> <br />                
-              </Heading>
-          </Stack>
+  Text,
+  Stack,
+  Heading,
+  Image,
+  CardBody,
+  Card,
+  Flex,
+  Center
+} from "@chakra-ui/react";
 
-<Stack   align='center'>
-<Flex>
-      <Stack>
-              <Text className="texto-card-naoreciclaveis"  fontSize="1rem" color='white'>
+
+export function ResiduosComunsCard() {
+  return (
+    <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <CardBody >
+
+        <Stack>
+          <Heading mt='6' fontSize="4rem" color="white">
+            RESÍDUOS NÃO RECICLÁVEIS
+            <br /> <br />
+          </Heading>
+        </Stack>
+
+        <Stack align='center'>
+          <Flex>
+            <Stack>
+              <Text className="texto-card-naoreciclaveis" fontSize="1rem" color='white'>
                 # BITUCAS DE CIGARRO <br />
                 # CALÇADOS INUTILIZÁVEIS<br />
                 # CRISTAIS<br />
@@ -40,12 +40,12 @@ import {
                 # NEGATIVOS DE FILMES<br />
                 # PANOS<br />
                 # PAPEL ADESIVO<br />
-                # PAPEL CARBONO<br />                
+                # PAPEL CARBONO<br />
               </Text>
-              </Stack>
+            </Stack>
 
-              <Stack>            
-          <Text className="texto-card-naoreciclaveis" fontSize="1rem" color='white'>
+            <Stack>
+              <Text className="texto-card-naoreciclaveis" fontSize="1rem" color='white'>
                 # PAPEL REVESTIDOS DE SILICONE <br />
                 # PAPEL TOALHA USADOS<br />
                 # PAPEL VEGETAL<br />
@@ -60,21 +60,20 @@ import {
                 # PAPEL CELOFANE<br />
                 # PAPEL ENCERADO<br />
                 # PAPEL ENCHARCADO<br />
-              </Text>            
-          </Stack>
-      </Flex>
-</Stack>
-      
-              
-  
-              
-           
-          
-          
-          
-          
-        </CardBody>
-      </Card>
-    );
-  }
-  
+              </Text>
+            </Stack>
+          </Flex>
+        </Stack>
+
+
+
+
+
+
+
+
+
+      </CardBody>
+    </Card>
+  );
+}

@@ -7,12 +7,13 @@ import { RecuperarSenhaCard } from "../components/RecuperarSenha/RecuperarSenhaC
 import { RedefinirSenhaCard } from "../components/Redefinir/RedefinirSenhaCard";
 import { DashboardCard } from "../components/Dashboard/DashboardCard";
 import { ContatoCard } from "../components/Contato/ContatoCard";
+import { ObrigadoCard } from "../components/ObrigadoPorCadastrar/ObrigadoCard";
 function Login() {
   return (
   
      <Box backgroundSize='cover' bgImage={logo} height="100vh">
     <Header />
-    <LoginCard />
+    <RecuperarSenhaCard />
     
     </Box>
 
