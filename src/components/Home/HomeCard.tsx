@@ -30,12 +30,14 @@ export function HomeCard() {
       variant="outline"
       align="center"
     >
-      <Flex>
-        <div className="forest_img">
+      
+        <Stack className="img-texto-btn-home-card">
+        <Flex>
+        <Stack className="forest-img">
           <Image objectFit="cover" src={forest} />
-        </div>
+        </Stack>
 
-        <div className="text_home">
+        <Stack className="texto-home">
           <CardBody>
             <Text
               color="white"
@@ -57,13 +59,13 @@ export function HomeCard() {
               color='black'
               bg="white"
               ml="70%"
-              mt="20"
             >
               <LinkRoute to="/Reciclagem">Entenda Mais</LinkRoute>
             </Button>
           </CardFooter>
-        </div>
-      </Flex>
+        </Stack>
+        </Flex>
+        </Stack>
     </Card>
   );
 }
