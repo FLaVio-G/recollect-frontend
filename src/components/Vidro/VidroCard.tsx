@@ -19,11 +19,11 @@ import {
   
   export function VidroCard() {
     return (
-      <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
-    <Stack mt='6' spacing='3' textAlign='center'>
-      <Heading className="vidro" mt='6' fontSize='4rem'>VIDRO</Heading>
+    <Stack spacing='3' textAlign='center'>
+      <Heading className="titulo-vidro" mt='6' fontSize='4rem'>VIDRO</Heading>
       <Text className="text_vidro" fontSize='1rem' >
                 #CACOS DE VIDRO 
                 #COPOS DE VIDRO
@@ -38,7 +38,7 @@ import {
       <Center>
       <Image 
       align='center'
-      className="img"
+      className="img-vidro"
       src={vidro}
       alt='Green double couch with wooden legs'
       borderRadius='lg'/>

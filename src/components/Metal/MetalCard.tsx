@@ -14,12 +14,15 @@ import {
 
   export function MetalCard() {
     return (
-      <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
-    <Stack mt='6' spacing='3' textAlign='center'>
-      <Heading className="metal" mt='6' fontSize='4rem'>METAL</Heading>
-      <Text className="text_metal" fontSize='1rem' >
+    <Stack spacing='3' textAlign='center'>
+      <Heading mt='6' fontSize='4rem'>METAL</Heading>
+      </Stack>
+
+      <Stack textAlign='center' mt='6' className="texto_metal">
+      <Text fontSize='1rem' >
                 #FERRAGENS 
                 #FIOS DE COBRE
                 #LATAS DE AEROSOL<br />
@@ -30,10 +33,12 @@ import {
                 #LATAS DE SARDINHA
                 #PANELAS SEM CABO
       </Text>
+      </Stack>
+
+      <Stack mt='6'>
       <Center>
-      <Image 
-      align='center'
-      className="img"
+      <Image
+      className="img-metal"
       src={metal}
       alt='Green double couch with wooden legs'
       borderRadius='lg'/>
