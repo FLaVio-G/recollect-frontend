@@ -1,17 +1,19 @@
-
-.stack .btnenviar{
+.card-recuperar-senha{
+    margin-top: 5%;
+}
+.input-email .botao-enviar-recuperar-senha{
     margin-top: 15%;
-    margin-bottom: 10%;
-    width: 50%;
-    margin-left: 25%;
+    margin-bottom: 15%;
+    margin-left: 33%;
+    width: 40%;
 }
 
-.stack input{
+.input-email .input-email-recuperar-senha{
     width: 100%;
     border: 1px solid white;
     color: black;
 }
 
-.stack input::placeholder{
+.input-email .input-email-recuperar-senha::placeholder{
     color: white;
 }

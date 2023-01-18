@@ -26,7 +26,7 @@ import {
   
   export function RecuperarSenhaCard(){
       return(
-        <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+        <Card className="card-recuperar-senha" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
     <Stack mt='6' spacing='3' textAlign='center'>
@@ -39,11 +39,11 @@ import {
 
             <Center>
                 
-                <Stack className="stack" spacing={3}  width='70%'>
-                        <Input placeholder='e-mail' type='email'/>    
+                <Stack className="input-email" spacing={3}  width='70%'>
+                        <Input className="input-email-recuperar-senha" placeholder='e-mail' type='email'/>    
                         <Popover>
                         <PopoverTrigger>
-                        <Button className="btnenviar" colorScheme="green" color='black' bg="white" width='20%'>Enviar</Button>
+                        <Button className="botao-enviar-recuperar-senha" colorScheme="green" color='black' bg="white" alignItems='center'>Enviar</Button>
                         </PopoverTrigger>
                         <PopoverContent>
                             <PopoverArrow />
