@@ -25,8 +25,8 @@ export function PrincipalCard() {
             <Heading size="md" fontSize="4rem" color="white">
               Olá nós somos a<br></br>Recollect
             </Heading>
-
-            <Text py="2" fontSize="1rem" color='white'>
+          <Stack  >
+          <Text className=".texto-quem-somos" py="2" fontSize="1rem" color='white'>
               A Recollect é uma empresa que tem como principal objetivo
               incentivar pessoas comuns a reciclar seu lixo doméstico.
               Acreditamos que o futuro do nosso planeta está nas mãos de cada um
@@ -42,6 +42,8 @@ export function PrincipalCard() {
               dar o destino correto ao seu lixo.<br /> <br /> Toda ação conta. Seja parte
               dessa jornada.
             </Text>
+          </Stack>
+            
           </CardBody>
         </Stack>
 

@@ -21,9 +21,9 @@ import {
   <CardBody >
     
     <Stack mt='6' spacing='3' textAlign='center'>
-      <Heading mt='6' fontSize='4rem'>PARCEIROS</Heading>
+      <Heading mt='6' fontSize='4rem' color='white'>PARCEIROS</Heading>
       <Center>
-      <Text className="texto-parceiros-card" fontSize='1rem' >
+      <Text className="texto-parceiros-card" fontSize='1rem' color='white' >
       A Recollect conta com inúmeras empresas parceiras que vão te apoiar no processo de descarte e reciclagem do seu lixo. <br />
       Abaixo, você poderá ver uma lista completa dos nossos parceiros, com detalhes sobre contato, materiais que eles reciclam e endereço. <br />
       Caso queria buscar as empresas por proximidade do seu endereço, <LinkRoute className="linkroute" to="/Recollect">clique aqui</LinkRoute>.<br />
@@ -46,9 +46,9 @@ import {
 
   <Stack>
     <CardBody className="texto-descritivo-empresa">
-      <Heading size='md'>Generate Lorem Ipsum placeholder</Heading>
+      <Heading color='white'>Generate Lorem Ipsum placeholder</Heading>
 
-      <Text py='2'>
+      <Text py='2'color='white'>
       feugiat scelerisque varius morbi enim nunc faucibus a pellentesque 
       sit amet porttitor eget dolor morbi non arcu risus quis varius quam 
       quisque id diam vel quam elementum pulvinar etiam non quam lacus suspendisse 
@@ -73,9 +73,9 @@ import {
 
   <Stack>
     <CardBody className="texto-descritivo-empresa">
-      <Heading size='md'>Generate Lorem Ipsum placeholder</Heading>
+      <Heading color='white'>Generate Lorem Ipsum placeholder</Heading>
 
-      <Text py='2'>
+      <Text py='2' color='white'>
       feugiat scelerisque varius morbi enim nunc faucibus a pellentesque 
       sit amet porttitor eget dolor morbi non arcu risus quis varius quam 
       quisque id diam vel quam elementum pulvinar etiam non quam lacus suspendisse 
