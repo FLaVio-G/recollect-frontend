@@ -21,7 +21,7 @@ import {
   <CardBody >
     
     <Stack mt='6' spacing='3' textAlign='center'>
-      <Heading className="vidro" mt='6' fontSize='4rem'>PARCEIROS</Heading>
+      <Heading mt='6' fontSize='4rem'>PARCEIROS</Heading>
       <Center>
       <Text className="texto-parceiros-card" fontSize='1rem' >
       A Recollect conta com inúmeras empresas parceiras que vão te apoiar no processo de descarte e reciclagem do seu lixo. <br />

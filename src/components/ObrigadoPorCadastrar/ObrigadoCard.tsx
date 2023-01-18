@@ -34,7 +34,7 @@ import {
                     Vamos analisar suas informações e entraremos em contato para formalizar a inscrição. <br />
                     Os dados da sua empresa estarão disponíveis na nossa plataforma em breve.
                 </Text>
-                <Button className="obrigado-card-botao-enviar" colorScheme='green' bg='white' width='20%'><LinkRoute to="/Login">Login</LinkRoute></Button>
+                <Button className="obrigado-card-botao-enviar" colorScheme='green' bg='white' color='black'><LinkRoute to="/Login">Login</LinkRoute></Button>
                 </Stack>
                 
 
