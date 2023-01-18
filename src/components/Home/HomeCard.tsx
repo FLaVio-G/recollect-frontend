@@ -18,6 +18,7 @@ import "./style.css";
 export function HomeCard() {
   return (
     <Card
+      className="home-card"
       backdropFilter="auto"
       backdropBlur="40px"
       ml="2%"

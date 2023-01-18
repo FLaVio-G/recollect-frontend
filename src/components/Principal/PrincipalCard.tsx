@@ -12,12 +12,12 @@ import {
 } from "@chakra-ui/react";
 import { Link as LinkRoute } from "react-router-dom";
 import caixa from "../../assets/imgs/caixas.png";
-
+import './style.css'
 
 export function PrincipalCard() {
   return (
     
-    <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card className="quem-somos-card" backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody>
         <Flex>
         <Stack maxW="960px" w='50%' >

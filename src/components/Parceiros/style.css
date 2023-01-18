@@ -1,10 +1,13 @@
-.text{
+.parceiros-card{
+    margin-top: 5%;
+}
+.texto-parceiros-card{
     text-align: justify;
     line-height: 40px;
     margin-bottom: 30px;    
 }
 
-.cardbody{
+.texto-descritivo-empresa{
     text-align: justify;
 }
 
@@ -12,7 +15,8 @@
     text-decoration: underline;
 }
 
-.cadastrebtn Button{
+.botao-cadastre-sua-empresa{
     width: 15%;
+    margin-top: 3%;
     margin-left: 85%;
 }

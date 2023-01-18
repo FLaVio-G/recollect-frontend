@@ -8,6 +8,7 @@ import Contato from "./pages/Contato";
 import EsqueciMinhaSenha from "./pages/EsqueciMinhaSenha";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import ObrigadoPorCadastrar from "./pages/ObrigadoPorCadastrar";
 
 import Parceiros from "./pages/Parceiros";
 import QuemSomos from "./pages/QuemSomos";
@@ -34,6 +35,7 @@ export default function Routes() {
         <Route path="/Cadastro" element={<Cadastro />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/Contato" element={<Contato />} />
+        <Route path="/ObrigadoPorCadastrar" element={<ObrigadoPorCadastrar />} />
         
       </WrapperRoutes>
     </BrowserRouter>

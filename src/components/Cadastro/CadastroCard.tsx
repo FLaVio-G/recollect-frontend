@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 
 import "./style.css";
+import { Link as LinkRoute } from "react-router-dom";
 
 export function CadastroCard() {
   return (
@@ -73,7 +74,7 @@ export function CadastroCard() {
 
             <Stack className='stack-c' align='end' >
               <Button className="botao-cadastrar" colorScheme="green" color='black' bg="white">
-                Cadastrar
+              <LinkRoute to="/ObrigadoPorCadastrar">Cadastrar</LinkRoute>
               </Button>
             </Stack>
           </Stack>

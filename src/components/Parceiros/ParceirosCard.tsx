@@ -17,13 +17,13 @@ import {
   
   export function ParceirosCard() {
     return (
-      <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <Card className="parceiros-card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
     <Stack mt='6' spacing='3' textAlign='center'>
       <Heading className="vidro" mt='6' fontSize='4rem'>PARCEIROS</Heading>
       <Center>
-      <Text className="text" fontSize='1rem' >
+      <Text className="texto-parceiros-card" fontSize='1rem' >
       A Recollect conta com inúmeras empresas parceiras que vão te apoiar no processo de descarte e reciclagem do seu lixo. <br />
       Abaixo, você poderá ver uma lista completa dos nossos parceiros, com detalhes sobre contato, materiais que eles reciclam e endereço. <br />
       Caso queria buscar as empresas por proximidade do seu endereço, <LinkRoute className="linkroute" to="/Recollect">clique aqui</LinkRoute>.<br />
@@ -45,7 +45,7 @@ import {
   />
 
   <Stack>
-    <CardBody className="cardbody">
+    <CardBody className="texto-descritivo-empresa">
       <Heading size='md'>Generate Lorem Ipsum placeholder</Heading>
 
       <Text py='2'>
@@ -72,7 +72,7 @@ import {
   />
 
   <Stack>
-    <CardBody className="cardbody">
+    <CardBody className="texto-descritivo-empresa">
       <Heading size='md'>Generate Lorem Ipsum placeholder</Heading>
 
       <Text py='2'>
@@ -85,9 +85,9 @@ import {
     </CardBody>
   </Stack>
 </Card>
-<Stack className="cadastrebtn">
-      <Button colorScheme='green' bg='white'>
-        Cadastre sua Empresa
+<Stack >
+      <Button className="botao-cadastre-sua-empresa" colorScheme='green' color='black' bg='white'>
+      <LinkRoute to="/Cadastro">Cadastre sua Empresa</LinkRoute>
       </Button>
 </Stack>
 
