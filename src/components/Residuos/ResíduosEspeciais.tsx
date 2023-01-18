@@ -14,11 +14,11 @@ import {
   
   export function ResiduosEspeciaisCard() {
     return (
-      <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <Card className="residuos-especiais-card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
     <Stack spacing='3' textAlign='center'>
-      <Heading mt='6' fontSize='4rem'>Resíduos Especiais</Heading>
+      <Heading fontSize='4rem'>Resíduos Especiais</Heading>
     </Stack>
 
     <Stack textAlign='center' mt='6' className="texto_residuosespeciais">
