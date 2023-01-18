@@ -12,7 +12,7 @@ import {
 
 export function ResiduosComunsCard() {
   return (
-    <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card className="residuos-comuns-card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody >
 
         <Stack>
@@ -25,7 +25,7 @@ export function ResiduosComunsCard() {
         <Stack align='center'>
           <Flex>
             <Stack>
-              <Text className="texto-card-naoreciclaveis" fontSize="1rem" color='white'>
+              <Text className="texto-card-naoreciclaveis" fontSize="1rem" color='white' align='center'>
                 # BITUCAS DE CIGARRO <br />
                 # CALÇADOS INUTILIZÁVEIS<br />
                 # CRISTAIS<br />
@@ -40,12 +40,11 @@ export function ResiduosComunsCard() {
                 # NEGATIVOS DE FILMES<br />
                 # PANOS<br />
                 # PAPEL ADESIVO<br />
-                # PAPEL CARBONO<br />
               </Text>
             </Stack>
 
             <Stack>
-              <Text className="texto-card-naoreciclaveis" fontSize="1rem" color='white'>
+              <Text className="texto-card-naoreciclaveis" fontSize="1rem" color='white' align='center'>
                 # PAPEL REVESTIDOS DE SILICONE <br />
                 # PAPEL TOALHA USADOS<br />
                 # PAPEL VEGETAL<br />

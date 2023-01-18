@@ -14,13 +14,14 @@ import { PlasticoCard } from "../components/Plastico/PlasticoCard";
 import { ReciclagemCard } from "../components/Reciclagem/ReciclagemCard";
 import { RecuperarSenhaCard } from "../components/RecuperarSenha/RecuperarSenhaCard";
 import { RedefinirSenhaCard } from "../components/Redefinir/RedefinirSenhaCard";
+import { ResiduosComunsCard } from "../components/Residuos/ResiduosComunsCard";
 
 function Login() {
   return (
   
      <Box backgroundSize='cover' bgImage={logo} height="100vh">
     <Header />
-    <RedefinirSenhaCard />
+    <ResiduosComunsCard />
     
     </Box>
 
