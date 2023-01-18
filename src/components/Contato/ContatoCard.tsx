@@ -52,7 +52,7 @@ export function ContatoCard(){
               
                 <Stack className='stack_c'>
                     
-                        <Button className='btn' colorScheme='green' bg='white'>Enviar</Button>
+                        <Button className='contato_card_btn' colorScheme='green' bg='white'>Enviar</Button>
                      
                 </Stack> 
                

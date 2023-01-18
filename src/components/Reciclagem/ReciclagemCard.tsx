@@ -61,8 +61,8 @@ import {
               Agora que você já tem seus materiais limpos e separados, pode entrar em contato com uma das nossas empresas parceiras.<br /> <br /> 
                     <Center>
                     <ButtonGroup spacing='6'>
-                        <Button colorScheme="green" color='black' bg="white">Parceiros</Button>
-                        <Button colorScheme="green" color='black' bg="white">Quero Reciclar</Button>
+                        <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/Parceiros">Parceiros</LinkRoute></Button>
+                        <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/QueroReciclar">Quero Reciclar</LinkRoute></Button>
                     </ButtonGroup> 
                     </Center><br />
                     

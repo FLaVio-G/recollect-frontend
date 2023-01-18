@@ -10,7 +10,7 @@ import {
   Flex,
   Center,
 } from "@chakra-ui/react";
-
+import { Link as LinkRoute } from "react-router-dom";
 import caixa from "../../assets/imgs/caixas.png";
 
 
@@ -53,7 +53,7 @@ export function PrincipalCard() {
           <Center>
           <CardFooter>  
             <Button colorScheme="green" color='black' bg="white">
-              Entre em contato
+            <LinkRoute to="/Contato">Entre em contato</LinkRoute>
             </Button>
            </CardFooter>
           </Center>

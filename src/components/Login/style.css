@@ -1,0 +1,27 @@
+.card_login{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    height: 600px;
+}
+
+.input-email-senha-logincard{
+    color: black;
+    width: 40%;
+}
+
+.input-email-senha-logincard input::placeholder{
+   
+    color: white;
+}
+
+.entrar-cadastre-se-botoes{
+    margin-top: 5%;
+}
+
+.link-esqueci-minha-senha{
+    margin-top: 5%;
+}
+
+
+

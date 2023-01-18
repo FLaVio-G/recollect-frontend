@@ -11,9 +11,10 @@ import {
   ButtonGroup,
   Flex,
 } from "@chakra-ui/react";
-
+import { Link as LinkRoute } from "react-router-dom";
 import forest from "../../assets/imgs/home-forest.png";
 import "./style.css";
+
 export function HomeCard() {
   return (
     <Card
@@ -33,12 +34,12 @@ export function HomeCard() {
           <Image objectFit="cover" src={forest} />
         </div>
 
-        <div className="text_btn">
+        <div className="text_home">
           <CardBody>
             <Text
               color="white"
               fontSize="3rem"
-              className="text"
+              fontWeight='bold'
               mt="10"
               ml="10"
             >
@@ -56,9 +57,8 @@ export function HomeCard() {
               bg="white"
               ml="70%"
               mt="20"
-              className="btn"
             >
-              Entenda mais
+              <LinkRoute to="/Reciclagem">Entenda Mais</LinkRoute>
             </Button>
           </CardFooter>
         </div>
