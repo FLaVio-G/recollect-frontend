@@ -20,7 +20,6 @@ import {
     PopoverTrigger
   } from "@chakra-ui/react";
   
-  import forest from "../../assets/imgs/home-forest.png";
   import './style.css'
 
   

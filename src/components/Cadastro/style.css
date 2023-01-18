@@ -1,22 +1,24 @@
-.stack_a{
-    margin-left: 5%;
-   margin-bottom: 10%;
-    margin-right: 10%;
+.novo-cadastro-card{
+    margin-top: 5%;
 }
 
-.stack_a input{
-    border: 1px solid white;
-    color: black;
+.titulo-novo-cadastro{
+    margin-bottom: -5%;
+}
+
+
+.stack_a{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .stack_b{
     margin-right: 5%;
 }
 
-.stack_b .btn{
-    padding-top: 10%;
-    padding-bottom: 10%;
-    align-items: flex-end;
+.stack_b .stack_b1{
+    width: 100%;
+    margin-top: 13%;
 }
 
 .stack_a input,
@@ -32,5 +34,15 @@
 .stack_b2 input::placeholder,
 .stack_b3 input::placeholder{
     color: white;
+}
+
+.stack-c{
+    width: 100%;
+}
+
+.stack-c .botao-cadastrar{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 40%
 }
 

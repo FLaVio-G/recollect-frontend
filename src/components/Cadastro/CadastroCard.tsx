@@ -13,7 +13,7 @@ import "./style.css";
 export function CadastroCard() {
   return (
     <Card
-      className="cadastro_card"
+      className="novo-cadastro-card"
       backdropFilter="auto"
       backdropBlur="40px"
       ml="2%"
@@ -23,12 +23,12 @@ export function CadastroCard() {
       borderEndRadius="20px"
       variant="outline"
     >
-      <Center>
-        <Heading size="md" fontSize="3.5rem" mt="10" color="white">
+      
+        <Heading className="titulo-novo-cadastro" fontSize="3.5rem" mt="10" textAlign='center' color="white">
           Novo Cadastro
           <br /> <br />
         </Heading>
-      </Center>
+      
 
       <Center>
         <Flex>
@@ -70,8 +70,9 @@ export function CadastroCard() {
                 />
               </Flex>
             </Stack>
-            <Stack className="btn">
-              <Button colorScheme="green" bg="white">
+
+            <Stack className='stack-c' align='end' >
+              <Button className="botao-cadastrar" colorScheme="green" bg="white">
                 Cadastrar
               </Button>
             </Stack>
