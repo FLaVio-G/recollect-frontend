@@ -72,7 +72,7 @@ export function CadastroCard() {
             </Stack>
 
             <Stack className='stack-c' align='end' >
-              <Button className="botao-cadastrar" colorScheme="green" bg="white">
+              <Button className="botao-cadastrar" colorScheme="green" color='black' bg="white">
                 Cadastrar
               </Button>
             </Stack>
