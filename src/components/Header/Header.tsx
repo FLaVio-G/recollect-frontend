@@ -1,5 +1,6 @@
 import { Button, ButtonGroup, Flex } from "@chakra-ui/react";
 import { Link as LinkRoute } from "react-router-dom";
+import './style.css'
 
 export function Header() {
   return (
@@ -8,8 +9,9 @@ export function Header() {
       alignItems="center"
       justifyContent="center"
       gap="3"
-    >
-      <ButtonGroup>
+    > 
+    <div className="header">
+    <ButtonGroup>
       <Button color="#1AA703" fontSize="1.5rem">
           <LinkRoute to="/Recollect">Recollect</LinkRoute>
         </Button>
@@ -29,6 +31,8 @@ export function Header() {
           <LinkRoute to="/Login">Login</LinkRoute>
         </Button>
       </ButtonGroup>
+    </div>
+      
     </Flex>
   );
 }
