@@ -19,11 +19,11 @@ import {
   
   export function VidroCard() {
     return (
-      <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <Card mt='6' align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
     <Stack spacing='3' textAlign='center'>
-      <Heading className="titulo-vidro" mt='6' fontSize='4rem'>VIDRO</Heading>
+      <Heading mt='6' fontSize='4rem'>VIDRO</Heading>
       <Text className="text_vidro" fontSize='1rem' >
                 #CACOS DE VIDRO 
                 #COPOS DE VIDRO

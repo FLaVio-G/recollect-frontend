@@ -37,7 +37,6 @@ import {
     <Center>
       <Image 
       align='center'
-      className="img"
       src={residuos}
       alt='Green double couch with wooden legs'
       borderRadius='lg'/>
