@@ -1,5 +1,6 @@
 .card-recuperar-senha{
     margin-top: 5%;
+    border: 1px solid white;
 }
 .input-email .botao-enviar-recuperar-senha{
     margin-top: 15%;
