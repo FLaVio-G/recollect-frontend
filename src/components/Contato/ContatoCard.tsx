@@ -14,6 +14,12 @@ import {
   Button,
   Stack,
   Flex,
+  Popover,
+  PopoverArrow,
+  PopoverBody,
+  PopoverCloseButton,
+  PopoverContent,
+  PopoverTrigger,
 } from '@chakra-ui/react'
 
 import './style.css'
@@ -51,8 +57,17 @@ export function ContatoCard() {
         </Stack>
 
         <Stack className='botao-enviar-contato-card' align='center'>
-
-          <Button className='contato_card_btn' colorScheme='green' bg='white'>Enviar</Button>
+        <Popover>
+                <PopoverTrigger>
+                <Button className='contato_card_btn' colorScheme='green' bg='white'>Enviar</Button>
+                </PopoverTrigger>
+                <PopoverContent>
+                  <PopoverArrow />
+                  <PopoverCloseButton />
+                  <PopoverBody>Mensagem enviada com sucesso.</PopoverBody>
+                </PopoverContent>
+              </Popover>
+          
 
         </Stack>
 

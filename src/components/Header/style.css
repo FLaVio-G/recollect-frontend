@@ -3,10 +3,6 @@
     justify-content: space-around;
 }
 
-.menu-hamburgeur-header{
-    font-size: 50px;
-}
-
 .links-header .links-menu:hover{
     background-color: white;
     color: green;
