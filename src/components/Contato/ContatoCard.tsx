@@ -59,7 +59,7 @@ export function ContatoCard() {
         <Stack className='botao-enviar-contato-card' align='center'>
         <Popover>
                 <PopoverTrigger>
-                <Button className='contato_card_btn' colorScheme='green' bg='white'>Enviar</Button>
+                <Button className='contato_card_btn' colorScheme='green' bg='white' color='black'>Enviar</Button>
                 </PopoverTrigger>
                 <PopoverContent>
                   <PopoverArrow />
