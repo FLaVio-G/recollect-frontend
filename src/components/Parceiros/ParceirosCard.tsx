@@ -13,7 +13,8 @@ import {
 
 import { Link as LinkRoute } from "react-router-dom";
 import './style.css';
-import parceiros from "../../assets/imgs/parceiros_img.png";
+import parceiros01 from "../../assets/imgs/parceiros01.png";
+import parceiros02 from "../../assets/imgs/parceiros02.png";
 
 export function ParceirosCard() {
   return (
@@ -40,13 +41,13 @@ export function ParceirosCard() {
             <Image
               objectFit='cover'
               maxW={{ base: '100%', md: '400px' }}
-              src={parceiros}
+              src={parceiros01}
               alt='Caffe Latte'
             />
 
             <Stack>
               <CardBody className="texto-descritivo-empresa">
-                <Heading color='white'>Generate Lorem Ipsum placeholder</Heading>
+                <Heading color='white' mb='4'>Generate Lorem Ipsum</Heading>
 
                 <Text py='2' color='white'>
                   feugiat scelerisque varius morbi enim nunc faucibus a pellentesque
@@ -67,13 +68,13 @@ export function ParceirosCard() {
             <Image
               objectFit='cover'
               maxW={{ base: '100%', md: '400px' }}
-              src={parceiros}
+              src={parceiros02}
               alt='Caffe Latte'
             />
 
             <Stack>
               <CardBody className="texto-descritivo-empresa">
-                <Heading color='white'>Generate Lorem Ipsum placeholder</Heading>
+                <Heading color='white' mb='4'>Generate Lorem Ipsum</Heading>
 
                 <Text py='2' color='white'>
                   feugiat scelerisque varius morbi enim nunc faucibus a pellentesque
