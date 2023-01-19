@@ -16,11 +16,8 @@ export function Header() {
           as={IconButton}
           aria-label='Options'
           icon={<HamburgerIcon />}
-          variant='outline'
           color='green'
-          className="menu-hamburgeur-header"
-          height='50px'
-          
+          className="menu-hamburguer-header"      
         />
         <MenuList className="links-header" bgColor='green'>
           <MenuItem className="links-menu" bgColor='green'>
