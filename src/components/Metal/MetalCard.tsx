@@ -19,8 +19,8 @@ export function MetalCard() {
     <Card mt='10' align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody >
 
-        <Stack spacing='3' textAlign='center'>
-          <Heading mt='6' fontSize='4rem'>METAL</Heading>
+        <Stack spacing='3' textAlign='center' color='white'>
+          <Heading mt='6' fontSize='4rem' color='white'>METAL</Heading>
         </Stack>
 
         <Stack textAlign='center' mt='6' className="texto_metal">

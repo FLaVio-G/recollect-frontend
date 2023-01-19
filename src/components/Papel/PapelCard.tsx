@@ -20,8 +20,8 @@ export function PapelCard() {
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>
-          <Heading mt='6' fontSize='4rem'>PAPEL</Heading>
-          <Text className="text_papel" fontSize='1rem' >
+          <Heading mt='6' fontSize='4rem' color='white'>PAPEL</Heading>
+          <Text className="text_papel" fontSize='1rem' color='white'>
             #EMBALAGEM DE OVO
             #EMBALAGENS DE PRODUTOS DE HIGIENE
             #EMBALAGENS DE PRODUTOS DE LIMPEZA <br />
