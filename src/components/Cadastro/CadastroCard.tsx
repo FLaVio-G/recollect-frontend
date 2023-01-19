@@ -19,7 +19,7 @@ export function CadastroCard() {
       backdropBlur="40px"
       ml="2%"
       mr="2%"
-      border="1px"
+      border="1px solid white"
       borderStartRadius="20px"
       borderEndRadius="20px"
       variant="outline"

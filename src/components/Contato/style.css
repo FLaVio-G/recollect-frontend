@@ -1,6 +1,7 @@
 .contato-card{
     margin-top: 3%;
     display: block;
+    border: 1px solid white;
 }
 
 .inputs-nome-e-sobrenome{
