@@ -2,3 +2,15 @@
     margin-top: 2%;
 }
 
+.home-card Image{
+    width: 100%;
+}
+
+.img-texto-btn-home-card{
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25%;
+    gap: 30px;
+}
+

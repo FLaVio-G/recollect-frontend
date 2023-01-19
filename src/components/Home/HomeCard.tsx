@@ -32,13 +32,13 @@ export function HomeCard() {
     >
 
       <Stack className="img-texto-btn-home-card">
-        <Flex>
+        
           <Stack className="forest-img">
             <Image src={forest} />
           </Stack>
 
           <Stack className="texto-home">
-            <CardBody>
+            
               <Text
                 color="white"
                 fontSize="3rem"
@@ -51,7 +51,7 @@ export function HomeCard() {
                 Ajudando você a <br />
                 preservar a natureza.
               </Text>
-            </CardBody>
+            
 
             <CardFooter>
               <Button
@@ -64,7 +64,7 @@ export function HomeCard() {
               </Button>
             </CardFooter>
           </Stack>
-        </Flex>
+        
       </Stack>
     </Card>
   );

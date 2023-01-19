@@ -23,7 +23,7 @@ export function PrincipalCard() {
           <Stack maxW="960px" w='50%' >
             <CardBody>
               <Heading size="md" fontSize="4rem" color="white">
-                Olá nós somos a<br></br>Recollect
+                Olá nós somos a<br></br>Recollect!!!
               </Heading>
               <Stack  >
                 <Text className=".texto-quem-somos" fontSize="1rem" mt='6' color='white' textAlign='justify'>

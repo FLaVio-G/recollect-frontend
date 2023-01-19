@@ -40,7 +40,7 @@ export function VidroCard() {
               align='center'
               className="img-vidro"
               src={vidro}
-              alt='Green double couch with wooden legs'
+              alt='garrafas de vidro'
               borderRadius='lg' />
           </Center>
 

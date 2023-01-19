@@ -22,8 +22,8 @@ function Login() {
   return (
   
      <Box backgroundSize='cover' bgImage={logo} height="100vh">
-    <Header />
-    <VidroCard />
+    <Header/>
+    <LoginCard />
     
     </Box>
 
