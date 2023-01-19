@@ -6,7 +6,7 @@ import { VidroCard } from "../components/Vidro/VidroCard";
 function Vidro() {
   return (
     <>
-      <Box backgroundSize='cover' bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' bgImage={logo} height="100%">
         <Header />
         <VidroCard />
       </Box>

@@ -6,7 +6,7 @@ import { ResiduosComunsCard } from "../components/Residuos/ResiduosComunsCard";
 function ResiduosComuns() {
   return (
     <>
-      <Box backgroundSize='cover' bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' bgImage={logo} height="100%">
         <Header />
         <ResiduosComunsCard />
       </Box>
