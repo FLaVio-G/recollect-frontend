@@ -47,14 +47,14 @@ export function PrincipalCard() {
             </CardBody>
           </Stack>
 
-          <Stack mt='10%' w='50%'>
+          <Stack mt='8%' w='50%'>
             <Center>
-              <Image src={caixa} w='50%' h='100%' />
+              <Image src={caixa} w='70%' h='100%' />
             </Center>
 
             <Center>
               <CardFooter>
-                <Button colorScheme="green" color='black' bg="white">
+                <Button mt='7' colorScheme="green" color='black' bg="white">
                   <LinkRoute to="/Contato">Entre em contato</LinkRoute>
                 </Button>
               </CardFooter>
