@@ -7,7 +7,7 @@ import { ResiduosEspeciaisCard } from "../components/Residuos/ResíduosEspeciais
 function ResiduosEspeciais() {
   return (
     <>
-      <Box backgroundSize='cover' bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' bgImage={logo} height="100%">
         <Header />
         <ResiduosEspeciaisCard />
       </Box>
