@@ -7,8 +7,8 @@ export function Header() {
   return (
     <Flex className="header">
 
-      <Button color="#1AA703" fontSize="3rem">
-        <LinkRoute to="/Recollect">Recollect</LinkRoute>
+      <Button  color="#1AA703" fontSize='3rem' variant='link'>
+        <LinkRoute className="logo" to="/Recollect">Recollect</LinkRoute>
       </Button>
 
       <Menu>

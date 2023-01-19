@@ -3,6 +3,11 @@
     justify-content: space-around;
 }
 
+.logo:hover{
+    background-color: none;
+}
+
+
 .menu-hamburguer-header{
     border: 3px solid green;
 }
