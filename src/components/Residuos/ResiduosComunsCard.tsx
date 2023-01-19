@@ -6,9 +6,10 @@ import {
   CardBody,
   Card,
   Flex,
-  Center
+  Center,
+  Button
 } from "@chakra-ui/react";
-
+import { Link as LinkRoute } from "react-router-dom";
 
 export function ResiduosComunsCard() {
   return (
@@ -61,7 +62,11 @@ export function ResiduosComunsCard() {
                 # PAPEL ENCHARCADO<br />
               </Text>
             </Stack>
+
           </Flex>
+          <Center>
+            <Button mt='6' colorScheme="green" color='black' bg="white"><LinkRoute to="/Reciclagem">Voltar</LinkRoute></Button>
+          </Center>
         </Stack>
 
 

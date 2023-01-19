@@ -15,7 +15,7 @@ import {
 
 import vidro from "../../assets/imgs/vidro.png";
 import './style.css'
-
+import { Link as LinkRoute } from "react-router-dom";
 
 export function VidroCard() {
   return (
@@ -42,6 +42,10 @@ export function VidroCard() {
               src={vidro}
               alt='garrafas de vidro'
               borderRadius='lg' />
+          </Center>
+
+          <Center>
+          <Button mt='6' colorScheme="green" color='black' bg="white"><LinkRoute to="/Reciclagem">Voltar</LinkRoute></Button>
           </Center>
 
         </Stack>

@@ -34,11 +34,11 @@ export function ReciclagemCard() {
                 Veja abaixo uma lista de cada um deles:<br /> <br />
                 <Center>
                   <ButtonGroup spacing='6'>
-                    <Button colorScheme="green" color='black' bg="white">Papel</Button>
-                    <Button colorScheme="green" color='black' bg="white">Plástico</Button>
-                    <Button colorScheme="green" color='black' bg="white">Vidro</Button>
-                    <Button colorScheme="green" color='black' bg="white">Metal</Button>
-                    <Button colorScheme="green" color='black' bg="white">Res. Não Recicláveis</Button>
+                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/Papel">Papel</LinkRoute></Button>
+                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/Plastico">Plástico</LinkRoute></Button>
+                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/Vidro">Vidro</LinkRoute></Button>
+                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/Metal">Metal</LinkRoute></Button>
+                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/ResiduosComuns">Não Recicláveis</LinkRoute></Button>
                   </ButtonGroup>
                 </Center><br />
 
@@ -70,7 +70,7 @@ export function ReciclagemCard() {
 
                 <Center>
                   <ButtonGroup spacing='6'>
-                    <Button colorScheme="green" color='black' bg="white">Resíduos Especiais</Button>
+                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/ResiduosEspeciais">Resíduos Especiais</LinkRoute></Button>
                   </ButtonGroup>
                 </Center><br />
 

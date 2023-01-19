@@ -1,9 +1,10 @@
 .home-card{
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
-.home-card Image{
-    width: 100%;
+.forest-img{
+    width: 30%;
+    height: 50%;
 }
 
 .img-texto-btn-home-card{

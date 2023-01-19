@@ -6,15 +6,17 @@ import {
   CardBody,
   Card,
   Flex,
-  Center
+  Center,
+  Button
 } from "@chakra-ui/react";
 
 import papel from "../../assets/imgs/papel.png";
 import './style.css'
+import { Link as LinkRoute } from "react-router-dom";
 
 export function PapelCard() {
   return (
-    <Card align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card mt='6' align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>
@@ -43,7 +45,9 @@ export function PapelCard() {
               alt='Green double couch with wooden legs'
               borderRadius='lg' />
           </Center>
-
+          <Center>
+          <Button mt='6' colorScheme="green" color='black' bg="white"><LinkRoute to="/Reciclagem">Voltar</LinkRoute></Button>
+          </Center>
         </Stack>
       </CardBody>
     </Card>
