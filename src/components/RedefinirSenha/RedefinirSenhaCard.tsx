@@ -32,8 +32,8 @@ export function RedefinirSenhaCard() {
             </Heading>
 
             <Stack className="redefinir-senha-inputs" spacing={3} >
-                <Input placeholder='Nova Senha' type='password' />
-                <Input placeholder='Repetir Nova Senha' type='password' />
+                <Input placeholder='Senha' type='password' />
+                <Input placeholder='Repetir Senha' type='password' />
             </Stack>
 
             <Stack>
