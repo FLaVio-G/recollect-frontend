@@ -27,7 +27,7 @@ export function ParceirosCard() {
             <Text className="texto-parceiros-card" fontSize='1rem' color='white' >
               A Recollect conta com inúmeras empresas parceiras que vão te apoiar no processo de descarte e reciclagem do seu lixo. <br />
               Abaixo, você poderá ver uma lista completa dos nossos parceiros, com detalhes sobre contato, materiais que eles reciclam e endereço. <br />
-              Caso queria buscar as empresas por proximidade do seu endereço, <LinkRoute className="linkroute" to="/Recollect">clique aqui</LinkRoute>.<br />
+              Caso queria buscar as empresas por proximidade do seu endereço, <LinkRoute className="linkroute" to="/QueroReciclar">clique aqui</LinkRoute>.<br />
             </Text>
           </Center>
 

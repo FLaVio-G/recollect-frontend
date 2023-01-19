@@ -39,7 +39,7 @@ export function RedefinirSenhaCard() {
             <Stack>
                 <Popover>
                     <PopoverTrigger>
-                        <Button mt='6' mb='6' className="btn" colorScheme='green' bg='white'>Enviar</Button>
+                        <Button mt='6' mb='6' className="btn" colorScheme='green' bg='white' color='black'>Enviar</Button>
                     </PopoverTrigger>
                     <PopoverContent>
                         <PopoverArrow />
