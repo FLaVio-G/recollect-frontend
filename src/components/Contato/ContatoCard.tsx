@@ -26,7 +26,16 @@ import './style.css'
 
 export function ContatoCard() {
   return (
-    <Card className='contato-card' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card
+      className='contato-card'
+      backdropFilter='auto'
+      backdropBlur='40px'
+      ml='2%' mr='2%'
+      border='1px solid white'
+      borderStartRadius='20px'
+      borderEndRadius='20px'
+      variant='outline'>
+
       <CardBody className='card'  >
 
         <Heading textAlign='center' fontSize="3.5rem" color="white">
@@ -57,17 +66,17 @@ export function ContatoCard() {
         </Stack>
 
         <Stack className='botao-enviar-contato-card' align='center'>
-        <Popover>
-                <PopoverTrigger>
-                <Button className='contato_card_btn' colorScheme='green' bg='white' color='black'>Enviar</Button>
-                </PopoverTrigger>
-                <PopoverContent>
-                  <PopoverArrow />
-                  <PopoverCloseButton />
-                  <PopoverBody>Mensagem enviada com sucesso.</PopoverBody>
-                </PopoverContent>
-              </Popover>
-          
+          <Popover>
+            <PopoverTrigger>
+              <Button className='contato_card_btn' colorScheme='green' bg='white' color='black'>Enviar</Button>
+            </PopoverTrigger>
+            <PopoverContent>
+              <PopoverArrow />
+              <PopoverCloseButton />
+              <PopoverBody>Mensagem enviada com sucesso.</PopoverBody>
+            </PopoverContent>
+          </Popover>
+
 
         </Stack>
 

@@ -1,31 +1,31 @@
 import {
-    Text,
-    CardFooter,
-    Stack,
-    Heading,
-    Image,
-    Button,
-    CardBody,
-    Card,
-    Flex,
-    Center,
-  } from "@chakra-ui/react";
-  
-  import caixa from "../../assets/imgs/caixas.png";
-  
-  
-  export function  MapaParceiros() {
-    return (
-      
-      <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
-        <CardBody>
-          <Flex>
+  Text,
+  CardFooter,
+  Stack,
+  Heading,
+  Image,
+  Button,
+  CardBody,
+  Card,
+  Flex,
+  Center,
+} from "@chakra-ui/react";
+
+import caixa from "../../assets/imgs/caixas.png";
+
+
+export function MapaParceiros() {
+  return (
+
+    <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <CardBody>
+        <Flex>
           <Stack maxW="960px" w='50%' >
             <CardBody>
               <Heading size="md" fontSize="4rem" color="white">
                 Olá nós somos a<br></br>Recollect
               </Heading>
-  
+
               <Text py="2" fontSize="1rem" color='white'>
                 A Recollect é uma empresa que tem como principal objetivo
                 incentivar pessoas comuns a reciclar seu lixo doméstico.
@@ -44,24 +44,23 @@ import {
               </Text>
             </CardBody>
           </Stack>
-  
-          <Stack mt='10%'  w='50%'>
+
+          <Stack mt='10%' w='50%'>
             <Center>
-            <Image src={caixa}  w='50%' h='100%' />
+              <Image src={caixa} w='50%' h='100%' />
             </Center>
-            
+
             <Center>
-            <CardFooter>  
-              <Button variant="solid" colorScheme="blue">
-                Entre em contato
-              </Button>
-             </CardFooter>
+              <CardFooter>
+                <Button variant="solid" colorScheme="blue">
+                  Entre em contato
+                </Button>
+              </CardFooter>
             </Center>
-            
+
           </Stack>
-          </Flex>
-        </CardBody>
-      </Card>
-    );
-  }
-  
+        </Flex>
+      </CardBody>
+    </Card>
+  );
+}

@@ -23,7 +23,7 @@ export function HomeCard() {
       backdropBlur="40px"
       ml="2%"
       mr="2%"
-      border="1px"
+      border="1px solid white"
       borderStartRadius="20px"
       borderEndRadius="20px"
       overflow="hidden"
@@ -34,26 +34,26 @@ export function HomeCard() {
 
 
       <Stack className="img-texto-btn-home-card">
-      <Flex>
+        <Flex>
           <Stack className="forest-img">
             <Image src={forest} />
           </Stack>
 
           <Stack className="texto-home">
-            
-              <Text
-                color="white"
-                fontSize="3rem"
-                fontWeight='bold'
-                mt="10"
-                ml="10"
-              >
-                Cuidar, educar, <br />
-                conscientizar e somar. <br />
-                Ajudando você a <br />
-                preservar a natureza.
-              </Text>
-            
+
+            <Text
+              color="white"
+              fontSize="3rem"
+              fontWeight='bold'
+              mt="10"
+              ml="10"
+            >
+              Cuidar, educar, <br />
+              conscientizar e somar. <br />
+              Ajudando você a <br />
+              preservar a natureza.
+            </Text>
+
 
             <CardFooter>
               <Button
@@ -67,9 +67,9 @@ export function HomeCard() {
               </Button>
             </CardFooter>
           </Stack>
-          </Flex>
+        </Flex>
       </Stack>
-      
+
     </Card>
   );
 }

@@ -25,7 +25,15 @@ import './style.css'
 
 export function DashboardCard() {
     return (
-        <Card className="dashboard-card" backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+        <Card className="dashboard-card"
+            backdropFilter='auto'
+            backdropBlur='40px'
+            ml='2%' mr='2%'
+            border='1px solid white'
+            borderStartRadius='20px'
+            borderEndRadius='20px'
+            variant='outline'>
+
             <Center>
                 <Heading fontSize="3.5rem" mt='6' color="white">
                     Dashboard da Empresa

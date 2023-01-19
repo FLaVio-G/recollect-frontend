@@ -17,7 +17,7 @@ import parceiros from "../../assets/imgs/parceiros_img.png";
 
 export function ParceirosCard() {
   return (
-    <Card className="parceiros-card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card className="parceiros-card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>
