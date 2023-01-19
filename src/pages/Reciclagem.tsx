@@ -15,12 +15,6 @@ function Reciclagem() {
       <Box backgroundSize='cover' backgroundAttachment={'fixed'} bgImage={logo} height="100%">
       <Header />
       <ReciclagemCard />
-      <VidroCard />
-      <MetalCard />
-      <PlasticoCard /> 
-      <PapelCard /> 
-      <ResiduosComunsCard /> 
-      <ResiduosEspeciaisCard />
       </Box>
     </>
   );
