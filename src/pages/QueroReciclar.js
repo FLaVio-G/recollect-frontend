@@ -14,7 +14,7 @@ function QueroReciclar() {
     googleMapsApiKey: mapOptions.googleMapApiKey,
   });
     return (
-      <Box backgroundSize='cover' bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' bgImage={logo} height="100%">
       <Header />
       <Map isLoaded={isLoaded} />
     
