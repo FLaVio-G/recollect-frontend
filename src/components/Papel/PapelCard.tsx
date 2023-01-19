@@ -14,7 +14,7 @@ import {
   
   export function PapelCard() {
     return (
-      <Card className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <Card backgroundColor={'transparent'} className="card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
   <CardBody >
     
     <Stack mt='6' spacing='3' textAlign='center'>

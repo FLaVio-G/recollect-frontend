@@ -12,14 +12,14 @@ import { ResiduosEspeciaisCard } from "../components/Residuos/ResíduosEspeciais
 function Reciclagem() {
   return (
     <>
-      <Box backgroundSize='cover' bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' backgroundAttachment={'fixed'} bgImage={logo} height="100%">
       <Header />
       <ReciclagemCard />
-      <VidroCard /> <br />
-      <MetalCard /> <br />
-      <PlasticoCard /> <br />
-      <PapelCard /> <br />
-      <ResiduosComunsCard /> <br />
+      <VidroCard />
+      <MetalCard />
+      <PlasticoCard /> 
+      <PapelCard /> 
+      <ResiduosComunsCard /> 
       <ResiduosEspeciaisCard />
       </Box>
     </>
