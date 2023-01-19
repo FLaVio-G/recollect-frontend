@@ -28,9 +28,12 @@
     color: white;
 }
 
-.botao-atualizar-dashboard-card{
-    padding-top: 10%;
+.botao-alterar-e-atualizar-dashboard-card{
     padding-bottom: 10%;
     align-items: flex-end;
+}
+
+.botao-alterar-e-atualizar-dashboard-card .btn-alterar{
+    margin-right: 10px;
 }
 

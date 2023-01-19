@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Cadastro from "./pages/Cadastro";
 import Contato from "./pages/Contato";
+import Dashboard from "./pages/Dashboard";
 import EsqueciMinhaSenha from "./pages/EsqueciMinhaSenha";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -18,6 +19,7 @@ import QuemSomos from "./pages/QuemSomos";
 import QueroReciclar from "./pages/QueroReciclar";
 import Reciclagem from "./pages/Reciclagem";
 import Recollect from "./pages/Recollect";
+import RedefinirSenha from "./pages/RedefinirSenha";
 import ResiduosComuns from "./pages/ResiduosComuns";
 import ResiduosEspeciais from "./pages/ResiduosEspeciais";
 import Vidro from "./pages/Vidro";
@@ -47,6 +49,8 @@ export default function Routes() {
         <Route path="/Papel" element={<Papel />} />
         <Route path="/ResiduosEspeciais" element={<ResiduosEspeciais />} />
         <Route path="/ResiduosComuns" element={<ResiduosComuns />} />
+        <Route path="/RedefinirSenha" element={<RedefinirSenha />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
         
       </WrapperRoutes>
     </BrowserRouter>

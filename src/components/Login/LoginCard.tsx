@@ -44,7 +44,7 @@ export function LoginCard() {
           <Stack className="entrar-cadastre-se-botoes">
             <ButtonGroup className="login_card_btn">
               <Button colorScheme="green" color='black' bg="white">
-                <LinkRoute to="/Home">Entrar</LinkRoute>
+                <LinkRoute to="/Dashboard">Entrar</LinkRoute>
               </Button>
               <Button colorScheme="green" color='black' bg="white">
                 <LinkRoute to="/Cadastro">Cadastre-se</LinkRoute>

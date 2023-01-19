@@ -6,7 +6,7 @@ import { PrincipalCard } from "../components/Principal/PrincipalCard";
 function QuemSomos() {
   return (
     <>
-      <Box backgroundSize='cover' bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' bgImage={logo} height="100%">
         <Header />
         <PrincipalCard />
       </Box>

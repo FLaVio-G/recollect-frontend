@@ -13,7 +13,7 @@ import { ParceirosCard } from "../components/Parceiros/ParceirosCard";
 import { PlasticoCard } from "../components/Plastico/PlasticoCard";
 import { ReciclagemCard } from "../components/Reciclagem/ReciclagemCard";
 import { RecuperarSenhaCard } from "../components/RecuperarSenha/RecuperarSenhaCard";
-import { RedefinirSenhaCard } from "../components/Redefinir/RedefinirSenhaCard";
+import { RedefinirSenhaCard } from "../components/RedefinirSenha/RedefinirSenhaCard";
 import { ResiduosComunsCard } from "../components/Residuos/ResiduosComunsCard";
 import { ResiduosEspeciaisCard } from "../components/Residuos/ResíduosEspeciais";
 import { VidroCard } from "../components/Vidro/VidroCard";

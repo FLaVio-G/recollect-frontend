@@ -19,7 +19,7 @@ import {
     PopoverHeader,
     PopoverTrigger
 } from "@chakra-ui/react";
-
+import { Link as LinkRoute } from "react-router-dom";
 import './style.css'
 
 
@@ -69,12 +69,12 @@ export function DashboardCard() {
 
                         <Stack spacing={3}>
                             <Input placeholder='Retira o material em outros endereços?' type='name' />
-                            <Flex>
-                                <Input placeholder='Senha' type='password' width='50%' />
-                                <Input placeholder='Repetir Senha' type='password' width='50%' />
-                            </Flex>
                         </Stack>
-                        <Stack className="botao-atualizar-dashboard-card">
+
+                        <Stack className="botao-alterar-e-atualizar-dashboard-card">
+                            <Flex>
+                            <Button className="btn-alterar" colorScheme='green' bg='white' color='black'><LinkRoute to="/RedefinirSenha">Alterar Senha</LinkRoute></Button>
+                            
                             <Popover>
                                 <PopoverTrigger>
                                     <Button colorScheme='green' bg='white' color='black'>Atualizar</Button>
@@ -85,8 +85,9 @@ export function DashboardCard() {
                                     <PopoverBody>Informações atualizadas com sucesso.</PopoverBody>
                                 </PopoverContent>
                             </Popover>
-
+                            </Flex> 
                         </Stack>
+                        
                     </Stack>
                 </Flex>
             </Center>

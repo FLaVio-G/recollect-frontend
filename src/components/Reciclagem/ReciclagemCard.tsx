@@ -24,7 +24,7 @@ export function ReciclagemCard() {
           </Heading>
         </Center>
         <Flex>
-          <Stack maxW="960px" w='50%' >
+          <Stack  w='50%' >
             <CardBody>
               <Text py="2" fontSize="1rem" color='white'>
                 Antes de se conectar à nossas empresas parceiras e enviar seus materiais, existem algumas
