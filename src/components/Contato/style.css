@@ -1,38 +1,47 @@
-.card{
+.contato-card{
+    margin-top: 3%;
     display: block;
-    text-align: center;
 }
 
-.stack_a{
+.inputs-nome-e-sobrenome{
     align-items: center;
     padding-bottom: 8px;
-    margin-top: 5%;
+    margin-top: 3%;
     
 }
-.stack_a input{  
+.inputs-nome-e-sobrenome input{  
     margin: 2px; 
+    margin-bottom: 3%;
     border: 1px solid white;
 }
 
-.stack_b, .stack_c{
-    align-items: center;
-    padding-bottom: 10px;
-}
-.stack_b input{
-    border: 1px solid white;
+.inputs-nome-e-sobrenome input::placeholder{
+    color: white;
 }
 
-.stack_c input{
+.input-email-contato-card input{
+    border: 1px solid white;
+    margin-bottom: 2%;
+}
+
+.input-email-contato-card input::placeholder{
+    color: white;
+}
+
+.input-msg-contato-card input{
     height: 150px;
     border: 1px solid white;
 }
 
+.input-msg-contato-card input::placeholder{
+    color: white;
+}
 
 .link{
     margin-bottom: 50px;
 }
 
-.btn{
+.contato_card_btn{
     width: 10%;
     margin-top: 25px;
     margin-bottom: 50px;

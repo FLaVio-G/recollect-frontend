@@ -11,34 +11,40 @@ import {
   ButtonGroup,
   Flex,
 } from "@chakra-ui/react";
-
+import { Link as LinkRoute } from "react-router-dom";
 import forest from "../../assets/imgs/home-forest.png";
 import "./style.css";
+
 export function HomeCard() {
   return (
     <Card
+      className="home-card"
       backdropFilter="auto"
       backdropBlur="40px"
       ml="2%"
       mr="2%"
-      border="1px"
+      border="1px solid white"
       borderStartRadius="20px"
       borderEndRadius="20px"
       overflow="hidden"
       variant="outline"
       align="center"
     >
-      <Flex>
-        <div className="forest_img">
-          <Image objectFit="cover" src={forest} />
-        </div>
 
-        <div className="text_btn">
-          <CardBody>
+
+
+      <Stack className="img-texto-btn-home-card">
+        <Flex>
+          <Stack className="forest-img">
+            <Image src={forest} />
+          </Stack>
+
+          <Stack className="texto-home">
+
             <Text
               color="white"
               fontSize="3rem"
-              className="text"
+              fontWeight='bold'
               mt="10"
               ml="10"
             >
@@ -47,21 +53,23 @@ export function HomeCard() {
               Ajudando você a <br />
               preservar a natureza.
             </Text>
-          </CardBody>
 
-          <CardFooter>
-            <Button
-              colorScheme="green"
-              bg="white"
-              ml="70%"
-              mt="20"
-              className="btn"
-            >
-              Entenda mais
-            </Button>
-          </CardFooter>
-        </div>
-      </Flex>
+
+            <CardFooter>
+              <Button
+                colorScheme="green"
+                color='black'
+                bg="white"
+                ml="75%"
+                mt='14'
+              >
+                <LinkRoute to="/Reciclagem">Entenda Mais</LinkRoute>
+              </Button>
+            </CardFooter>
+          </Stack>
+        </Flex>
+      </Stack>
+
     </Card>
   );
 }

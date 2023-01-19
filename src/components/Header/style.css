@@ -1,0 +1,21 @@
+.header{
+    padding-top: 3%;
+    justify-content: space-around;
+}
+
+.logo:hover{
+    background-color: none;
+}
+
+
+.menu-hamburguer-header{
+    border: 3px solid green;
+    margin-top: 1%;
+}
+
+
+.links-header .links-menu:hover{
+    background-color: white;
+    color: green;
+}
+

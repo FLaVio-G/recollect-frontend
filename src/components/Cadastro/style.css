@@ -1,36 +1,50 @@
-.stack_a{
+.novo-cadastro-card{
+    margin-top: 2%;
+}
+
+.titulo-novo-cadastro{
+    margin-bottom: -5%;
+}
+
+
+.coluna-nome-da-empresa{
     margin-left: 5%;
-   margin-bottom: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+    
 }
 
-.stack_a input{
-    border: 1px solid white;
-    color: black;
-}
-
-.stack_b{
+.coluna-site-da-empresa{
     margin-right: 5%;
 }
 
-.stack_b .btn{
-    padding-top: 10%;
-    padding-bottom: 10%;
-    align-items: flex-end;
+.coluna-site-da-empresa .coluna-site-tel-endereco{
+    width: 100%;
+    margin-top: 13%;
 }
 
-.stack_a input,
-.stack_b input,
-.stack_b2 input,
-.stack_b3 input{
+.coluna-nome-da-empresa input,
+.coluna-site-da-empresa input,
+.coluna-cep-cidade-estado input,
+.coluna-senha-repetir-senha input{
     border: 1px solid white;
     color: black;
 }
 
-.stack_a input::placeholder,
-.stack_b input::placeholder,
-.stack_b2 input::placeholder,
-.stack_b3 input::placeholder{
+.coluna-nome-da-empresa input::placeholder,
+.coluna-site-da-empresa input::placeholder,
+.coluna-cep-cidade-estado input::placeholder,
+.coluna-senha-repetir-senha input::placeholder{
     color: white;
+}
+
+.stack-c{
+    width: 100%;
+}
+
+.stack-c .botao-cadastrar{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 40%
 }
 

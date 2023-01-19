@@ -1,32 +1,36 @@
 import {
-    Text,
-    Stack,
-    Heading,
-    Image,
-    CardBody,
-    Card,
-    Flex,
-    Center
-  } from "@chakra-ui/react";
-  
-  
-  export function ResiduosComunsCard() {
-    return (
-      <Card backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
-        <CardBody >
+  Text,
+  Stack,
+  Heading,
+  Image,
+  CardBody,
+  Card,
+  Flex,
+  Center,
+  Button
+} from "@chakra-ui/react";
+import { Link as LinkRoute } from "react-router-dom";
+
+export function ResiduosComunsCard() {
+  return (
+    <Card className="residuos-comuns-card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+      <CardBody >
+
+        <Stack>
+          <Heading mt='6' fontSize="4rem" color="white">
+            RESÍDUOS NÃO RECICLÁVEIS
+            <br /> <br />
+          </Heading>
+        </Stack>
+
+        <Stack align='center'>
           <Flex>
-          <Stack maxW="960px" w='50%' >
-            <CardBody>
-              <Heading size="md" fontSize="4rem" color="white">
-                RESÍDUOS COMUNS
-                <br /> <br />                
-              </Heading>
-  
-              <Text py="2" fontSize="1rem" color='white'>
+            <Stack>
+              <Text className="texto-card-naoreciclaveis" fontSize="1rem" color='white' align='center'>
                 # BITUCAS DE CIGARRO <br />
                 # CALÇADOS INUTILIZÁVEIS<br />
                 # CRISTAIS<br />
-                # EMBALAGENS PLÁST. METALIZADAS<br />
+                # EMBALAGENS METALIZADAS<br />
                 # ESPONJAS DE AÇO<br />
                 # ESPONJAS DE LIMPEZA<br />
                 # ETIQUETAS ADESIVAS<br />
@@ -37,15 +41,11 @@ import {
                 # NEGATIVOS DE FILMES<br />
                 # PANOS<br />
                 # PAPEL ADESIVO<br />
-                # PAPEL CARBONO<br />
-                
               </Text>
-            </CardBody>
-          </Stack>
-          
-          <Stack mt='12%'  w='50%'>
-            
-          <Text py="2" fontSize="1rem" color='white'>
+            </Stack>
+
+            <Stack>
+              <Text className="texto-card-naoreciclaveis" fontSize="1rem" color='white' align='center'>
                 # PAPEL REVESTIDOS DE SILICONE <br />
                 # PAPEL TOALHA USADOS<br />
                 # PAPEL VEGETAL<br />
@@ -61,11 +61,23 @@ import {
                 # PAPEL ENCERADO<br />
                 # PAPEL ENCHARCADO<br />
               </Text>
-            
-          </Stack>
+            </Stack>
+
           </Flex>
-        </CardBody>
-      </Card>
-    );
-  }
-  
+          <Center>
+            <Button mt='6' colorScheme="green" color='black' bg="white"><LinkRoute to="/Reciclagem">Voltar</LinkRoute></Button>
+          </Center>
+        </Stack>
+
+
+
+
+
+
+
+
+
+      </CardBody>
+    </Card>
+  );
+}

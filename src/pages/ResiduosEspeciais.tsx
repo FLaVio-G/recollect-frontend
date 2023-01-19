@@ -1,16 +1,17 @@
 import { Header } from "../components/Header/Header";
 import { Box } from "@chakra-ui/react";
 import logo from "../assets/imgs/morro-2.png";
-import { PrincipalCard } from "../components/Principal/PrincipalCard";
+import { VidroCard } from "../components/Vidro/VidroCard";
+import { ResiduosEspeciaisCard } from "../components/Residuos/ResíduosEspeciais";
 
-function QuemSomos() {
+function ResiduosEspeciais() {
   return (
     <>
       <Box backgroundSize='cover' bgImage={logo} height="100%">
         <Header />
-        <PrincipalCard />
+        <ResiduosEspeciaisCard />
       </Box>
     </>
   );
 }
-export default QuemSomos;
+export default ResiduosEspeciais;

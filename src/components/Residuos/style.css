@@ -1,20 +1,11 @@
-.card{
-    margin-top: 3%;
+.texto-card-naoreciclaveis{
+   padding: 0 20px 20px 20px ;
 }
 
-.card .vidro{
-    margin-top: 0;
+.residuos-comuns-card{
+   margin-top: 3%;
 }
 
-.card .text{
-    margin-top: 30px;
-}
-.card .img{
-    margin-top: 30px;
-    width: 80%;
-    
-}
-
-.text_residuosespeciais{
-    text-align: center;
+.residuos-especiais-card{
+   margin-top: 3%;
 }

@@ -6,7 +6,7 @@ import { ParceirosCard } from "../components/Parceiros/ParceirosCard";
 function Parceiros() {
   return (
     <>
-      <Box backgroundSize='cover' bgImage={logo} height="100vh">
+      <Box backgroundSize='cover' bgImage={logo} height="100%">
         <Header />
         <ParceirosCard />
       </Box>

@@ -9,30 +9,30 @@ import {
 } from "@chakra-ui/react";
 
 import "./style.css";
+import { Link as LinkRoute } from "react-router-dom";
 
 export function CadastroCard() {
   return (
     <Card
-      className="cadastro_card"
+      className="novo-cadastro-card"
       backdropFilter="auto"
       backdropBlur="40px"
       ml="2%"
       mr="2%"
-      border="1px"
+      border="1px solid white"
       borderStartRadius="20px"
       borderEndRadius="20px"
       variant="outline"
     >
-      <Center>
-        <Heading size="md" fontSize="3.5rem" mt="10" color="white">
-          Novo Cadastro
-          <br /> <br />
-        </Heading>
-      </Center>
+
+      <Heading className="titulo-novo-cadastro" fontSize="3.5rem" mt="10" textAlign='center' color="white">
+        Novo Cadastro
+        <br /> <br />
+      </Heading>
 
       <Center>
         <Flex>
-          <Stack className="stack_a" spacing={3} width="100%">
+          <Stack className="coluna-nome-da-empresa" spacing={3} width="100%">
             <Input placeholder="Nome da empresa*" type="name" />
             <Input placeholder="Nome do responsável*" type="name" />
             <Input placeholder="E-mail da empresa*" type="name" />
@@ -41,14 +41,14 @@ export function CadastroCard() {
             <Input placeholder="E-mail para login*" type="email" />
           </Stack>
 
-          <Stack className="stack_b" spacing={3} width="100%">
-            <Stack className="stack_b1" spacing={3}>
+          <Stack className="coluna-site-da-empresa" spacing={3} width="100%">
+            <Stack className="coluna-site-tel-endereco" spacing={3}>
               <Input placeholder="Site da empresa" type="name" />
               <Input placeholder="Telefone do responsável" type="name" />
               <Input placeholder="Endereço da empresa*" type="name" />
             </Stack>
 
-            <Stack className="stack_b2" spacing={3}>
+            <Stack className="coluna-cep-cidade-estado" spacing={3}>
               <Flex>
                 <Input placeholder="CEP*" type="name" width="33%" />
                 <Input placeholder="Cidade*" type="name" width="33%" />
@@ -56,7 +56,7 @@ export function CadastroCard() {
               </Flex>
             </Stack>
 
-            <Stack className="stack_b3" spacing={3}>
+            <Stack className="coluna-senha-repetir-senha" spacing={3}>
               <Input
                 placeholder="Retira o material em outros endereços?"
                 type="name"
@@ -70,9 +70,10 @@ export function CadastroCard() {
                 />
               </Flex>
             </Stack>
-            <Stack className="btn">
-              <Button colorScheme="green" bg="white">
-                Cadastrar
+
+            <Stack className='stack-c' align='end' >
+              <Button className="botao-cadastrar" colorScheme="green" color='black' bg="white">
+                <LinkRoute to="/ObrigadoPorCadastrar">Cadastrar</LinkRoute>
               </Button>
             </Stack>
           </Stack>

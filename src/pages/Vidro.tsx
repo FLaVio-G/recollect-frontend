@@ -1,16 +1,16 @@
 import { Header } from "../components/Header/Header";
 import { Box } from "@chakra-ui/react";
 import logo from "../assets/imgs/morro-2.png";
-import { PrincipalCard } from "../components/Principal/PrincipalCard";
+import { VidroCard } from "../components/Vidro/VidroCard";
 
-function QuemSomos() {
+function Vidro() {
   return (
     <>
       <Box backgroundSize='cover' bgImage={logo} height="100%">
         <Header />
-        <PrincipalCard />
+        <VidroCard />
       </Box>
     </>
   );
 }
-export default QuemSomos;
+export default Vidro;
