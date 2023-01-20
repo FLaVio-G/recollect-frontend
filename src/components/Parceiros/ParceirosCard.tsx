@@ -22,9 +22,9 @@ export function ParceirosCard() {
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>
-          <Heading fontSize='4rem' color='white'>PARCEIROS</Heading>
+          <Heading fontSize={['3rem', '4rem']} color='white'>PARCEIROS</Heading>
           <Center>
-            <Text className="texto-parceiros-card" fontSize='1rem' color='white' >
+            <Text className="texto-parceiros-card" fontSize='1rem' color='white' textAlign='justify' >
               A Recollect conta com inúmeras empresas parceiras que vão te apoiar no processo de descarte e reciclagem do seu lixo. <br />
               Abaixo, você poderá ver uma lista completa dos nossos parceiros, com detalhes sobre contato, materiais que eles reciclam e endereço. <br />
               Caso queria buscar as empresas por proximidade do seu endereço, <LinkRoute className="linkroute" to="/QueroReciclar">clique aqui</LinkRoute>.<br />
@@ -87,9 +87,11 @@ export function ParceirosCard() {
             </Stack>
           </Card>
           <Stack >
-            <Button className="botao-cadastre-sua-empresa" colorScheme='green' color='black' bg='white'>
+          <Flex justifyContent='flex-end' pr='5'>
+            <Button className="botao-cadastre-sua-empresa" width={['100%', '20%']} colorScheme='green' color='black' bg='white' >
               <LinkRoute to="/Cadastro">Cadastre sua Empresa</LinkRoute>
             </Button>
+            </Flex>
           </Stack>
 
         </Stack>

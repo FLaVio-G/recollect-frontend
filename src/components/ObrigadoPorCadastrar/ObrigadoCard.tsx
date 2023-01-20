@@ -21,7 +21,7 @@ export function ObrigadoCard() {
     return (
         <Card className="obrigado-card" backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1p1px solid whitex' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
             <Center>
-                <Heading size="md" fontSize="3.5rem" mt='10' color="white">
+                <Heading size="md" fontSize={["3rem", '4rem']} mt='10' color="white" textAlign='center'>
                     Obrigado por se cadastrar na Recollect!
                     <br /> <br />
                 </Heading>
