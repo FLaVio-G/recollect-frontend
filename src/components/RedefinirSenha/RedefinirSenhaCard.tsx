@@ -26,7 +26,7 @@ export function RedefinirSenhaCard() {
     return (
         <Card align='center' className="redefinir-senha-card" backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
 
-            <Heading fontSize="3.5rem" mt='6' color="white" >
+            <Heading fontSize="3.5rem" mt='6' color="white" textAlign='center'>
                 Redefinir Senha
                 <br /> <br />
             </Heading>

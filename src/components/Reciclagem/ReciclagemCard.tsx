@@ -23,8 +23,8 @@ export function ReciclagemCard() {
             RECICLAGEM
           </Heading>
         </Center>
-        <Flex>
-          <Stack  w='50%' >
+        <Flex flexDirection={['column', 'row']}>
+          <Stack  width={['100%', '50%']} >
             <CardBody>
               <Text py="2" fontSize="1rem" color='white'>
                 Antes de se conectar à nossas empresas parceiras e enviar seus materiais, existem algumas
@@ -33,12 +33,12 @@ export function ReciclagemCard() {
                 (esses são chamados de resíduos comuns). Para começar o processo de reciclagem, você vai precisar separar um do outro. <br /> <br />
                 Veja abaixo uma lista de cada um deles:<br /> <br />
                 <Center>
-                  <ButtonGroup spacing='6'>
-                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/Papel">Papel</LinkRoute></Button>
-                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/Plastico">Plástico</LinkRoute></Button>
-                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/Vidro">Vidro</LinkRoute></Button>
-                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/Metal">Metal</LinkRoute></Button>
-                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/ResiduosComuns">Não Recicláveis</LinkRoute></Button>
+                  <ButtonGroup spacing='6' flexWrap={['wrap']}>
+                    <Button mt='4' colorScheme="green" color='black' bg="white"><LinkRoute to="/Papel">Papel</LinkRoute></Button>
+                    <Button mt='4' colorScheme="green" color='black' bg="white"><LinkRoute to="/Plastico">Plástico</LinkRoute></Button>
+                    <Button mt='4' colorScheme="green" color='black' bg="white"><LinkRoute to="/Vidro">Vidro</LinkRoute></Button>
+                    <Button mt='4' colorScheme="green" color='black' bg="white"><LinkRoute to="/Metal">Metal</LinkRoute></Button>
+                    <Button mt='4' colorScheme="green" color='black' bg="white"><LinkRoute to="/ResiduosComuns">Não Recicláveis</LinkRoute></Button>
                   </ButtonGroup>
                 </Center><br />
 
@@ -51,7 +51,7 @@ export function ReciclagemCard() {
             </CardBody>
           </Stack>
 
-          <Stack w='50%'>
+          <Stack width={['100%', '50%']}>
             <CardBody>
               <Text py="2" fontSize="1rem" color='white'>
                 Depois de limpos, separe-os de acordo com as categorias que mencionamos (metais, papéis, vidros ou plásticos).<br /> <br />
@@ -70,7 +70,7 @@ export function ReciclagemCard() {
 
                 <Center>
                   <ButtonGroup spacing='6'>
-                    <Button colorScheme="green" color='black' bg="white"><LinkRoute to="/ResiduosEspeciais">Resíduos Especiais</LinkRoute></Button>
+                    <Button mt='6' colorScheme="green" color='black' bg="white"><LinkRoute to="/ResiduosEspeciais">Resíduos Especiais</LinkRoute></Button>
                   </ButtonGroup>
                 </Center><br />
 

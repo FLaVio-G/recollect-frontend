@@ -6,7 +6,7 @@
 
 .input-email-senha-logincard{
     color: black;
-    width: 40%;
+    max-width: 600px;
 }
 
 .input-email-senha-logincard input{

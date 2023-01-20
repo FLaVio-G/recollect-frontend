@@ -49,10 +49,10 @@ export function CadastroCard() {
             </Stack>
 
             <Stack className="coluna-cep-cidade-estado" spacing={3}>
-              <Flex>
-                <Input placeholder="CEP*" type="name" width="33%" />
-                <Input placeholder="Cidade*" type="name" width="33%" />
-                <Input placeholder="Estado*" type="name" width="33%" />
+              <Flex flexDirection={['row', 'row']}>
+                <Input placeholder="CEP*" type="name" width={['100%', '33%' ]} />
+                <Input placeholder="Cidade*" type="name" width={['100%', '33%' ]} />
+                <Input placeholder="Estado*" type="name" width={['100%', '33%' ]} />
               </Flex>
             </Stack>
 

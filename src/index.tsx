@@ -2,6 +2,7 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom/client"
 import App from "./App"
+import './styles/globals.css'
 // import { ContatoCard } from "./components/Contato/ContatoCard";
 // import Background from "./components/Background/background"
 // import { Header } from "./components/Header/Header"
