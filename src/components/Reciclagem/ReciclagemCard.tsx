@@ -43,7 +43,7 @@ export function ReciclagemCard() {
                 </ButtonGroup>
               </Center><br />
 
-              <Text textAlign='justify'>
+              <Text textAlign='justify' color='white'>
                 É muito importante que você limpe bem os materiais, 
                 tirando sobras de comida, líquidos ou produtos. 
                 O material também precisa estar seco.

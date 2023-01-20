@@ -24,7 +24,7 @@ export function MetalCard() {
         </Stack>
 
         <Stack textAlign='center' mt='6' className="texto_metal">
-          <Text fontSize='1rem' >
+          <Text fontSize='1rem' color='white' >
             #FERRAGENS
             #FIOS DE COBRE
             #LATAS DE AEROSOL<br />
