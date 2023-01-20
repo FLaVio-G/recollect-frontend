@@ -19,10 +19,10 @@ export function PrincipalCard() {
 
     <Card className="quem-somos-card" backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody>
-        <Flex>
-          <Stack maxW="960px" w='50%' >
+        <Flex flexDirection={['column', 'row']}>
+          <Stack  width={['100%', '50%']}>
             <CardBody>
-              <Heading size="md" fontSize="4rem" color="white">
+              <Heading size="md" fontSize={["3rem", '4rem']} color="white" textAlign={['center', 'justify']}>
                 Olá nós somos a<br></br>Recollect!!!
               </Heading>
               <Stack  >
@@ -47,9 +47,9 @@ export function PrincipalCard() {
             </CardBody>
           </Stack>
 
-          <Stack mt='8%' w='50%'>
+          <Stack mt='8%' width={['100%', '50%']}>
             <Center>
-              <Image src={caixa} w='70%' h='100%' />
+              <Image src={caixa} width={['90%', '70%']} />
             </Center>
 
             <Center>

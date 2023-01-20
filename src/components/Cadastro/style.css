@@ -20,7 +20,6 @@
 
 .coluna-site-da-empresa .coluna-site-tel-endereco{
     width: 100%;
-    margin-top: 13%;
 }
 
 .coluna-nome-da-empresa input,
@@ -36,10 +35,6 @@
 .coluna-cep-cidade-estado input::placeholder,
 .coluna-senha-repetir-senha input::placeholder{
     color: white;
-}
-
-.stack-c{
-    width: 100%;
 }
 
 .stack-c .botao-cadastrar{

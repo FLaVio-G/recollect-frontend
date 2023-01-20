@@ -38,7 +38,7 @@ export function ContatoCard() {
 
       <CardBody className='card'  >
 
-        <Heading textAlign='center' fontSize="3.5rem" color="white">
+        <Heading textAlign='center' fontSize={["3rem", '4rem']} color="white">
           Entre em Contato!<br />
         </Heading>
         <Heading textAlign='center' mt='6' fontSize="1em" color="white">
@@ -58,17 +58,17 @@ export function ContatoCard() {
 
 
         <Stack className='input-email-contato-card' align='center'>
-          <Input placeholder='E-mail' type='email' width='30%' />
+          <Input placeholder='E-mail' type='email' width={['100%', '30%']} />
         </Stack>
 
         <Stack className='input-msg-contato-card' align='center'>
-          <Input className='b' placeholder='Mensagem' type='text' width='30%' />
+          <Input className='b' placeholder='Mensagem' type='text' width={['100%', '30%']} />
         </Stack>
 
         <Stack className='botao-enviar-contato-card' align='center'>
           <Popover>
             <PopoverTrigger>
-              <Button className='contato_card_btn' colorScheme='green' bg='white' color='black'>Enviar</Button>
+              <Button className='contato_card_btn' colorScheme='green' bg='white' color='black' width={['100%', '10%']}>Enviar</Button>
             </PopoverTrigger>
             <PopoverContent>
               <PopoverArrow />

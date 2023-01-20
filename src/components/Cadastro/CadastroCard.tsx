@@ -25,14 +25,14 @@ export function CadastroCard() {
       variant="outline"
     >
 
-      <Heading className="titulo-novo-cadastro" fontSize="3.5rem" mt="10" textAlign='center' color="white">
+      <Heading className="titulo-novo-cadastro" fontSize={["3rem", '4rem']} mt="10" textAlign='center' color="white">
         Novo Cadastro
         <br /> <br />
       </Heading>
 
       <Center>
         <Flex>
-          <Stack className="coluna-nome-da-empresa" spacing={3} width="100%">
+          <Stack mt={["-5", '10']} className="coluna-nome-da-empresa" spacing={3} width="100%">
             <Input placeholder="Nome da empresa*" type="name" />
             <Input placeholder="Nome do responsável*" type="name" />
             <Input placeholder="E-mail da empresa*" type="name" />
@@ -41,7 +41,7 @@ export function CadastroCard() {
             <Input placeholder="E-mail para login*" type="email" />
           </Stack>
 
-          <Stack className="coluna-site-da-empresa" spacing={3} width="100%">
+          <Stack className="coluna-site-da-empresa" spacing={3} mt={["-5", '10']} width="100%">
             <Stack className="coluna-site-tel-endereco" spacing={3}>
               <Input placeholder="Site da empresa" type="name" />
               <Input placeholder="Telefone do responsável" type="name" />
