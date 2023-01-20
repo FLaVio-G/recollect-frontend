@@ -43,7 +43,7 @@ export function DashboardCard() {
 
             <Center>
                 <Flex>
-                    <Stack className="coluna-nome-da-empresa-dashboard-card" spacing={3} width='100%'>
+                    <Stack className="coluna-nome-da-empresa-dashboard-card" spacing={3} mt={["-5", '-10']} width='100%'>
                         <Input placeholder='Nome da empresa*' type='name' />
                         <Input placeholder='Nome do responsável*' type='name' />
                         <Input placeholder='E-mail da empresa*' type='name' />
@@ -52,7 +52,7 @@ export function DashboardCard() {
                         <Input placeholder='E-mail para login*' type='email' />
                     </Stack>
 
-                    <Stack className="coluna-site-da-empresa-dashboard-card" spacing={3} width='100%'>
+                    <Stack className="coluna-site-da-empresa-dashboard-card" spacing={3} mt={["-5", '-10']} width='100%'>
                         <Stack className="stack_b1" spacing={3}>
                             <Input placeholder='Site da empresa' type='name' />
                             <Input placeholder='Telefone do responsável' type='name' />
@@ -60,10 +60,10 @@ export function DashboardCard() {
                         </Stack>
 
                         <Stack spacing={3}>
-                            <Flex>
-                                <Input placeholder='CEP*' type='name' width='33%' />
-                                <Input placeholder='Cidade*' type='name' width='33%' />
-                                <Input placeholder='Estado*' type='name' width='33%' />
+                            <Flex flexDirection={['row', 'row']}>
+                                <Input placeholder='CEP*' type='name' width={['100%', '33%']} />
+                                <Input placeholder='Cidade*' type='name' width={['100%', '33%']} />
+                                <Input placeholder='Estado*' type='name' width={['100%', '33%']} />
                             </Flex>
                         </Stack>
 
