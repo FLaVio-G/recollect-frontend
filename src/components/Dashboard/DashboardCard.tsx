@@ -35,7 +35,7 @@ export function DashboardCard() {
             variant='outline'>
 
             <Center>
-                <Heading fontSize="3.5rem" mt='6' color="white">
+                <Heading fontSize={["3rem", '4rem']} mt='6' color="white" textAlign='center'>
                     Dashboard da Empresa
                     <br /> <br />
                 </Heading>
@@ -73,21 +73,21 @@ export function DashboardCard() {
 
                         <Stack className="botao-alterar-e-atualizar-dashboard-card">
                             <Flex>
-                            <Button className="btn-alterar" colorScheme='green' bg='white' color='black'><LinkRoute to="/RedefinirSenha">Alterar Senha</LinkRoute></Button>
-                            
-                            <Popover>
-                                <PopoverTrigger>
-                                    <Button colorScheme='green' bg='white' color='black'>Atualizar</Button>
-                                </PopoverTrigger>
-                                <PopoverContent>
-                                    <PopoverArrow />
-                                    <PopoverCloseButton />
-                                    <PopoverBody>Informações atualizadas com sucesso.</PopoverBody>
-                                </PopoverContent>
-                            </Popover>
-                            </Flex> 
+                                <Button className="btn-alterar" colorScheme='green' bg='white' color='black'><LinkRoute to="/RedefinirSenha">Alterar Senha</LinkRoute></Button>
+
+                                <Popover>
+                                    <PopoverTrigger>
+                                        <Button colorScheme='green' bg='white' color='black'>Atualizar</Button>
+                                    </PopoverTrigger>
+                                    <PopoverContent>
+                                        <PopoverArrow />
+                                        <PopoverCloseButton />
+                                        <PopoverBody>Informações atualizadas com sucesso.</PopoverBody>
+                                    </PopoverContent>
+                                </Popover>
+                            </Flex>
                         </Stack>
-                        
+
                     </Stack>
                 </Flex>
             </Center>

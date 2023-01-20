@@ -20,7 +20,7 @@ export function MetalCard() {
       <CardBody >
 
         <Stack spacing='3' textAlign='center' color='white'>
-          <Heading mt='6' fontSize='4rem' color='white'>METAL</Heading>
+          <Heading mt='6' fontSize={['3rem', '4rem']} color='white'>METAL</Heading>
         </Stack>
 
         <Stack textAlign='center' mt='6' className="texto_metal">

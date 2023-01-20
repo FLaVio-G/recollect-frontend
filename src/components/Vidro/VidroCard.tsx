@@ -23,7 +23,7 @@ export function VidroCard() {
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>
-          <Heading mt='6' color='white' fontSize='4rem'>VIDRO</Heading>
+          <Heading mt='6' color='white' fontSize={['3rem', '4rem']}>VIDRO</Heading>
           <Text className="text_vidro" fontSize='1rem' color='white'>
             #CACOS DE VIDRO
             #COPOS DE VIDRO
@@ -45,7 +45,7 @@ export function VidroCard() {
           </Center>
 
           <Center>
-          <Button mt='6' colorScheme="green" color='black' bg="white"><LinkRoute to="/Reciclagem">Voltar</LinkRoute></Button>
+            <Button mt='6' colorScheme="green" color='black' bg="white"><LinkRoute to="/Reciclagem">Voltar</LinkRoute></Button>
           </Center>
 
         </Stack>

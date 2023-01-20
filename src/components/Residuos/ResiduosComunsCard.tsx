@@ -17,7 +17,7 @@ export function ResiduosComunsCard() {
       <CardBody >
 
         <Stack>
-          <Heading mt='6' fontSize="4rem" color="white">
+          <Heading mt='6' fontSize={['3rem', '4rem']} color="white" textAlign='center'>
             RESÍDUOS NÃO RECICLÁVEIS
             <br /> <br />
           </Heading>

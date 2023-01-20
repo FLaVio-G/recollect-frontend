@@ -44,8 +44,8 @@ export function ReciclagemCard() {
               </Center><br />
 
               <Text textAlign='justify' color='white'>
-                É muito importante que você limpe bem os materiais, 
-                tirando sobras de comida, líquidos ou produtos. 
+                É muito importante que você limpe bem os materiais,
+                tirando sobras de comida, líquidos ou produtos.
                 O material também precisa estar seco.
               </Text>
 

@@ -53,8 +53,8 @@ export function HomeCard() {
             </Text>
 
 
-           
-              <Flex justifyContent='flex-end' pr='5'>
+
+            <Flex justifyContent='flex-end' pr='5'>
               <Button
                 colorScheme="green"
                 color='black'
@@ -63,7 +63,7 @@ export function HomeCard() {
               >
                 <LinkRoute to="/Reciclagem">Entenda Mais</LinkRoute>
               </Button>
-              </Flex>
+            </Flex>
           </Stack>
         </Flex>
       </Stack>

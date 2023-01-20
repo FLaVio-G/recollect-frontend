@@ -28,7 +28,7 @@ export function LoginCard() {
       variant="outline"
     >
       <CardBody border='white'>
-        <Heading fontSize="4rem" color="white">
+        <Heading fontSize={['3rem', '4rem']} color="white">
           Login
           <br /> <br />
         </Heading>
@@ -42,7 +42,7 @@ export function LoginCard() {
 
         <Center>
           <Stack className="entrar-cadastre-se-botoes">
-            <ButtonGroup className="login_card_btn">
+            <ButtonGroup className="login_card_btn" mt='10'>
               <Button colorScheme="green" color='black' bg="white">
                 <LinkRoute to="/Dashboard">Entrar</LinkRoute>
               </Button>
@@ -52,7 +52,7 @@ export function LoginCard() {
             </ButtonGroup>
           </Stack>
         </Center>
-        <Stack className="link-esqueci-minha-senha">
+        <Stack className="link-esqueci-minha-senha" mt='6' mb='6'> 
           <Link
             as={LinkRoute}
             to="/EsqueciMinhaSenha"

@@ -87,10 +87,10 @@ export function ParceirosCard() {
             </Stack>
           </Card>
           <Stack >
-          <Flex justifyContent='flex-end' pr='5'>
-            <Button className="botao-cadastre-sua-empresa" width={['100%', '20%']} colorScheme='green' color='black' bg='white' >
-              <LinkRoute to="/Cadastro">Cadastre sua Empresa</LinkRoute>
-            </Button>
+            <Flex justifyContent='flex-end' pr='5'>
+              <Button className="botao-cadastre-sua-empresa" width={['100%', '20%']} colorScheme='green' color='black' bg='white' >
+                <LinkRoute to="/Cadastro">Cadastre sua Empresa</LinkRoute>
+              </Button>
             </Flex>
           </Stack>
 

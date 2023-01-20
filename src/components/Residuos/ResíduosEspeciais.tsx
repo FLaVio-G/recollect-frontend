@@ -20,7 +20,7 @@ export function ResiduosEspeciaisCard() {
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>
-          <Heading fontSize='4rem' color='white'>Resíduos Especiais</Heading>
+          <Heading fontSize={['3rem', '4rem']} color='white'>Resíduos Especiais</Heading>
         </Stack>
 
         <Stack textAlign='center' mt='6' className="texto_residuosespeciais">

@@ -20,7 +20,7 @@ export function PlasticoCard() {
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>
-          <Heading mt='6' fontSize='4rem' color='white'>PLÁSTICO</Heading>
+          <Heading mt='6' fontSize={['3rem', '4rem']} color='white'>PLÁSTICO</Heading>
           <Text mt='6' fontSize='1rem' color='white'>
             # ACRÍLICOS
             # CÁPSULAS DE CAFÉ
