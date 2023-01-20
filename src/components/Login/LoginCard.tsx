@@ -1,5 +1,4 @@
 import {
-
   Input,
   Card,
   CardBody,
@@ -10,12 +9,35 @@ import {
   Stack,
   Center,
 } from "@chakra-ui/react";
-
+import { useState } from "react";
+import  { redirect } from 'react-router-dom'
 import { Link as LinkRoute } from "react-router-dom";
+import api from "../../services/api";
 
 import "./style.css";
+interface LoginInfo{
+  loginEmail: string,
+  password: string
+}
 
+async function Login(email: string, senha: string) {
+  try{
+  const response = await api.post<any>("/login", {loginEmail: email, password: senha });
+  localStorage.setItem('token', response.data);
+  window.location.assign('/Dashboard');  
+  } catch(err){
+    console.log(err)
+  }
+  
+  
+}
 export function LoginCard() {
+  const [email, setEmail] = useState<string>(''); 
+  const [senha, setSenha] = useState<string>(''); 
+  const  handleLogin = async () => {
+    await Login(email, senha)
+  }
+
   return (
     <Card className="card_login"
       backdropFilter="auto"
@@ -35,16 +57,16 @@ export function LoginCard() {
 
         <Center>
           <Stack className="input-email-senha-logincard">
-            <Input placeholder="E-mail" type="email" />
-            <Input placeholder="Senha" type="password" />
+            <Input placeholder="E-mail" type="email" value={email} onChange={(e) => setEmail(e.target.value)}  />
+            <Input placeholder="Senha" type="password" value={senha} onChange={(e) => setSenha(e.target.value)}/>
           </Stack>
         </Center>
 
         <Center>
           <Stack className="entrar-cadastre-se-botoes">
             <ButtonGroup className="login_card_btn" mt='10'>
-              <Button colorScheme="green" color='black' bg="white">
-                <LinkRoute to="/Dashboard">Entrar</LinkRoute>
+              <Button colorScheme="green" color='black' bg="white" onClick={handleLogin}>
+                <Link>Entrar</Link>
               </Button>
               <Button colorScheme="green" color='black' bg="white">
                 <LinkRoute to="/Cadastro">Cadastre-se</LinkRoute>

@@ -8,11 +8,11 @@ export type Address = {
     city: string;
     state: string;
     zip: string;
-    location: Location;
+    location?: Location;
 }
 
 export type Company = {
-    id: string;
+    id?: string;
     companyName: string;
     site: string;
     responsibleName: string;
@@ -24,11 +24,12 @@ export type Company = {
     removeTheMaterialAtAnotherAddress: string;
     loginEmail: string;
     password: string;
-    created_at: Date;
-    updated_at: Date;
+    created_at?: Date;
+    updated_at?: Date;
 }
 
 export type CompaniesResponse = {
     message?: string;
     companies?: Array<Company>;
 }
+
