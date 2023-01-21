@@ -26,7 +26,7 @@ export function MetalCard() {
         <Stack textAlign='center' mt='6' className="texto_metal">
           <Text fontSize='1rem' color='white' >
             #FERRAGENS
-            #FIOS DE COBRE
+            #FIOS DE COBRE.
             #LATAS DE AEROSOL<br />
             #LATAS DE AZEITE
             #LATAS DE ÓLEO
