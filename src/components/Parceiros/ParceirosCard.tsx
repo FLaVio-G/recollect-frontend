@@ -39,7 +39,9 @@ export function ParceirosCard(props: CompaniesResponse) {
                 direction={{ base: 'column', sm: 'row' }}
                 overflow='hidden'
                 variant='outline'
-                backdropFilter='auto' backdropBlur='40px' backgroundColor='none'
+                backdropFilter='auto' 
+                backdropBlur='40px' 
+                backgroundColor='none'
               >
                 <Image
                   objectFit='cover'
