@@ -39,16 +39,17 @@ export function ParceirosCard(props: CompaniesResponse) {
                 direction={{ base: 'column', sm: 'row' }}
                 overflow='hidden'
                 variant='outline'
+                backdropFilter='auto' backdropBlur='40px' backgroundColor='none'
               >
                 <Image
                   objectFit='cover'
                   maxW={{ base: '100%', md: '400px' }}
                   src={parceiros01}
-                  alt='Caffe Latte'
+                  alt=''
                 />
 
                 <Stack>
-                  <CardBody className="texto-descritivo-empresa">
+                  <CardBody className="texto-descritivo-empresa" >
                     <Heading color='white' mb='4'>{company.companyName}</Heading>
 
                     <Text py='2' color='white'>

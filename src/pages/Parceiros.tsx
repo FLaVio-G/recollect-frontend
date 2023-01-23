@@ -22,7 +22,7 @@ function Parceiros() {
 
   return (
     <>
-      <Box backgroundSize='cover' bgImage={logo} height={['100vh', '100%']}>
+      <Box backgroundSize='cover' bgImage={logo} height="100%">
         <Header />
         <ParceirosCard {...companyList} />
       </Box>
