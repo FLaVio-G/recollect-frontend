@@ -6,7 +6,7 @@ import { MetalCard } from "../components/Metal/MetalCard";
 function Metal() {
   return (
     <>
-      <Box backgroundSize='cover' bgImage={logo} height="100%">
+      <Box backgroundSize='cover' bgImage={logo} height={['100vh', '100%']}>
         <Header />
         <MetalCard />
       </Box>

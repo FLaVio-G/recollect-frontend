@@ -16,7 +16,7 @@ import './style.css'
 
 export function ReciclagemCard() {
   return (
-    <Card className="reciclagem-card" backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card className="reciclagem-card" backdropFilter='auto' backdropBlur='40px' backgroundColor='none' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody>
         <Center>
           <Heading size="md" fontSize={['3rem', '4rem']} color="white">

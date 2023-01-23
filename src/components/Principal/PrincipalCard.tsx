@@ -17,7 +17,7 @@ import './style.css'
 export function PrincipalCard() {
   return (
 
-    <Card className="quem-somos-card" backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card className="quem-somos-card" backdropFilter='auto' backdropBlur='40px' backgroundColor='none' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody>
         <Flex flexDirection={['column', 'row']}>
           <Stack  width={['100%', '50%']}>

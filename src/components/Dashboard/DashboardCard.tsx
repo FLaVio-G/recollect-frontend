@@ -38,7 +38,9 @@ export function DashboardCard() {
             border='1px solid white'
             borderStartRadius='20px'
             borderEndRadius='20px'
-            variant='outline'>
+            variant='outline'
+            backgroundColor='none'
+            >
 
             <Center>
                 <Heading fontSize={["3rem", '4rem']} mt='6' color="white" textAlign='center'>

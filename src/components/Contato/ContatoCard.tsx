@@ -34,7 +34,9 @@ export function ContatoCard() {
       border='1px solid white'
       borderStartRadius='20px'
       borderEndRadius='20px'
-      variant='outline'>
+      variant='outline'
+      backgroundColor='none'
+      >
 
       <CardBody className='card'  >
 

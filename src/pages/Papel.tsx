@@ -6,7 +6,7 @@ import { PapelCard } from "../components/Papel/PapelCard";
 function Papel() {
   return (
     <>
-      <Box backgroundSize='cover' bgImage={logo} height="100%">
+      <Box backgroundSize='cover' bgImage={logo} height={['100vh', '100%']}>
         <Header />
         <PapelCard />
       </Box>

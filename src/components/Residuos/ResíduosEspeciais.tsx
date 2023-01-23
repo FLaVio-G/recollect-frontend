@@ -16,7 +16,7 @@ import { Link as LinkRoute } from "react-router-dom";
 
 export function ResiduosEspeciaisCard() {
   return (
-    <Card className="residuos-especiais-card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card className="residuos-especiais-card" align='center' backdropFilter='auto' backdropBlur='40px' backgroundColor='none' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>

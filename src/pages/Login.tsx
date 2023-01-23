@@ -6,7 +6,7 @@ import { LoginCard } from "../components/Login/LoginCard";
 function Login() {
   return (
   
-     <Box backgroundSize='cover' bgImage={logo} height="100vh">
+     <Box backgroundSize='cover' bgImage={logo} height={['100vh', '100%']}>
     <Header/>
     <LoginCard />
     

@@ -48,6 +48,7 @@ export function LoginCard() {
       borderStartRadius="20px"
       borderEndRadius="20px"
       variant="outline"
+      backgroundColor='none'
     >
       <CardBody border='white'>
         <Heading fontSize={['3rem', '4rem']} color="white">

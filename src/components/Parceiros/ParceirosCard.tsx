@@ -18,7 +18,7 @@ import { CompaniesResponse } from "../../model/company.type";
 
 export function ParceirosCard(props: CompaniesResponse) {
   return (
-    <Card className="parceiros-card" align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card className="parceiros-card" align='center' backdropFilter='auto' backdropBlur='40px' backgroundColor='none' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>

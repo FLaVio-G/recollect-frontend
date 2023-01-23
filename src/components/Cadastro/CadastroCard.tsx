@@ -70,6 +70,7 @@ export function CadastroCard() {
       borderStartRadius="20px"
       borderEndRadius="20px"
       variant="outline"
+      backgroundColor='none'
     >
 
       <Heading className="titulo-novo-cadastro" fontSize={["3rem", '4rem']} mt="10" textAlign='center' color="white">

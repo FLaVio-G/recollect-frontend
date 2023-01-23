@@ -16,7 +16,7 @@ import { Link as LinkRoute } from "react-router-dom";
 
 export function PapelCard() {
   return (
-    <Card mt='6' align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
+    <Card mt='6' align='center' backdropFilter='auto' backdropBlur='40px' ml='2%' backgroundColor='none' mr='2%' border='1px solid white' borderStartRadius='20px' borderEndRadius='20px' variant='outline'>
       <CardBody >
 
         <Stack spacing='3' textAlign='center'>

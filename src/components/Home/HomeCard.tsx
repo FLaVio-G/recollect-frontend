@@ -29,6 +29,7 @@ export function HomeCard() {
       overflow="hidden"
       variant="outline"
       align="center"
+      backgroundColor='none'
     >
 
       <Stack className="img-texto-btn-home-card">
