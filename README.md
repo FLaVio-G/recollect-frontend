@@ -1,3 +1,5 @@
+Link do notion: https://festive-haze-920.notion.site/Desafio-Final-XP45-58674e14928f4240be5162e1cb68e10a
+
 Segundo estudos da International Solid Waste Association (ISWA), o Brasil produz cerca de 80 milhões de toneladas de lixo por ano, dos quais 30% tem o potencial de ser reciclado, mas apenas de 3 a 4% realmente é. Além dos impactos ambientais negativos, pois esse lixo que não é reciclável na maioria das vezes é levado para lixões a céu aberto ou são jogados em rios e oceanos. A não reciclagem de materiais representa uma enorme perda econômica para o país.
 
 Estimativas contabilizam uma perda de cerca de R$14 bilhões anualmente, que poderia ser revertida para pessoas em situações de vulnerabilidade como catadores de lixo - segundo outro estudo, são cerca de 800 mil pessoas que vivem de reciclagem no país. 
